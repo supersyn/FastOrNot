@@ -1,0 +1,114 @@
+﻿Log file open, 06/04/15 14:23:57
+LogInit:Display: Running engine for game: FastOrNot
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.04-12.23.57:117][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.06.04-12.23.57:153][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.04-12.23.57:179][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.04-12.23.57:195][  0]LogInit: Object subsystem initialized
+[2015.06.04-12.23.57:198][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.04-12.23.57:198][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/PROJECTS/FastOrNot/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.04-12.23.57:198][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.04-12.23.57:198][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/PROJECTS/FastOrNot/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.04-12.23.57:198][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.04-12.23.57:198][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/PROJECTS/FastOrNot/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.04-12.23.57:198][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.04-12.23.57:198][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.04-12.23.57:220][  0]LogInit: Computer: SUPERCOMPUTER
+[2015.06.04-12.23.57:220][  0]LogInit: User: Bartlomiej
+[2015.06.04-12.23.57:220][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.06.04-12.23.57:220][  0]LogInit: High frequency timer resolution =2.533318 MHz
+[2015.06.04-12.23.57:220][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=131072.0GB
+[2015.06.04-12.23.57:221][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.04-12.23.57:221][  0]LogMemory: Process Physical Memory: 46.57 MB used, 46.57 MB peak
+[2015.06.04-12.23.57:221][  0]LogMemory: Process Virtual Memory: 22.82 MB used, 22.83 MB peak
+[2015.06.04-12.23.57:221][  0]LogMemory: Physical Memory: 1700.36 MB used, 3992.94 MB total
+[2015.06.04-12.23.57:221][  0]LogMemory: Virtual Memory: 288.51 MB used, 134217728.00 MB total
+[2015.06.04-12.23.57:268][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 650M  (Feature Level 11_0)
+[2015.06.04-12.23.57:268][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 1996MB of shared system memory, 1 output[s]
+[2015.06.04-12.23.57:293][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 650M  (Feature Level 11_0)
+[2015.06.04-12.23.57:293][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 1996MB of shared system memory, 0 output[s]
+[2015.06.04-12.23.57:295][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.04-12.23.57:295][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 1996MB of shared system memory, 0 output[s]
+[2015.06.04-12.23.57:295][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.04-12.23.57:301][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.06.04-12.23.57:313][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.04-12.23.57:393][  0]LogTextLocalizationManager: The requested culture ('pl_PL') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.06.04-12.23.57:518][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.06.04-12.23.57:518][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.06.04-12.23.57:643][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.04-12.24.01:336][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.04-12.24.02:364][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.04-12.24.02:463][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.04-12.24.02:583][  0]LogDerivedDataCache: Loaded boot cache 0.12s 39MB C:/Users/Bartlomiej/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.04-12.24.02:583][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bartlomiej/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.04-12.24.02:583][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/PROJECTS/FastOrNot/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.04-12.24.02:583][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.04-12.24.02:753][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.04-12.24.02:765][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bartlomiej/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.04-12.24.03:456][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.04-12.24.03:456][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.04-12.24.04:015][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.04-12.24.04:147][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.04-12.24.05:901][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.04-12.24.06:184][  0]SourceControl: Info Source control is disabled
+[2015.06.04-12.24.06:184][  0]SourceControl: Info Source control is disabled
+[2015.06.04-12.24.06:185][  0]SourceControl: Info Source control is disabled
+[2015.06.04-12.24.06:185][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.04-12.24.06:185][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.06.04-12.24.06:201][  0]SourceControl: Info Source control is disabled
+[2015.06.04-12.24.06:511][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.04-12.24.06:511][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.06.04-12.24.06:639][  0]LogEngine: Initializing Engine...
+[2015.06.04-12.24.08:894][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.04-12.24.08:920][  0]LogInit: FAudioDevice initialized.
+[2015.06.04-12.24.08:982][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.04-12.24.09:014][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Bartlomiej/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.04-12.24.09:022][  0]LogInit: Texture streaming: Enabled
+[2015.06.04-12.24.09:167][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.04-12.24.09:169][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.04-12.24.09:169][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.04-12.24.09:169][  0]LogAnalytics: SetUserId b575e53349a6030bdb0cada0eb56732d|fe5ea6b6aed344da974d7574eed642ec|80630477-f6c0-4149-b540-877d31428d0f
+[2015.06.04-12.24.09:170][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.04-12.24.09:205][  0]LogInit: Transaction tracking system initialized
+[2015.06.04-12.24.09:505][  0]BlueprintLog: New page: Editor Load
+[2015.06.04-12.24.09:556][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.06.04-12.24.09:556][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.04-12.24.10:726][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.04-12.24.11:556][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.04-12.24.11:973][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.04-12.24.11:974][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.04-12.24.11:981][  0]LogConsoleResponse:Display: 
+[2015.06.04-12.24.12:243][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.04-12.24.12:535][  0]SourceControl: Info Source control is disabled
+[2015.06.04-12.24.12:536][  0]Cmd: MAP LOAD FILE="E:/PROJECTS/FastOrNot/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.04-12.24.12:536][  0]LogEditorServer:Warning: Can't find file 'E:/PROJECTS/FastOrNot/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.06.04-12.24.12:536][  0]Cmd: MAP CHECKDEP
+[2015.06.04-12.24.12:536][  0]MapCheck: New page: Untitled_0 - Jun 4, 2015, 4:24:12 PM
+[2015.06.04-12.24.12:654][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 118.007ms to complete.
+[2015.06.04-12.24.12:654][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.119
+[2015.06.04-12.24.12:841][  0]LogCollectionManager: Loaded 0 collections in 0.003002 seconds
+[2015.06.04-12.24.12:857][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 1696 classes and 261 folders.
+[2015.06.04-12.24.12:901][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0035 seconds. Added 1 classes and 2 folders.
+[2015.06.04-12.24.12:979][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.04-12.24.12:981][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.04-12.24.12:993][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.04-12.24.13:030][  0]LogLoad: Full Startup: 18.56 seconds (BP compile: 0.00 seconds)
+[2015.06.04-12.24.13:345][  0]LogRenderer:Warning: Reallocating scene render targets to support 856x400 (Frame:2).
+[2015.06.04-12.24.13:927][  9]LogAssetRegistry: Asset discovery search completed in 4.3813 seconds
+[2015.06.04-12.24.17:925][211]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Maps'
+[2015.06.04-12.24.21:610][276]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2015.06.04-12.24.21:642][276]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2015.06.04-12.24.21:673][276]LogMaterial: Missing cached shader map for material M_Radial_Gradient, compiling. 
+[2015.06.04-12.24.21:689][276]LogMaterial: Missing cached shader map

@@ -1,0 +1,636 @@
+﻿Log file open, 06/04/15 14:15:28
+LogInit:Display: Running engine for game: FastOrNot
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.04-12.15.28:301][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.06.04-12.15.28:340][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.04-12.15.28:356][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.04-12.15.28:370][  0]LogInit: Object subsystem initialized
+[2015.06.04-12.15.28:375][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.04-12.15.28:375][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.04-12.15.28:382][  0]LogInit: Computer: SUPERCOMPUTER
+[2015.06.04-12.15.28:382][  0]LogInit: User: Bartlomiej
+[2015.06.04-12.15.28:382][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.06.04-12.15.28:382][  0]LogInit: High frequency timer resolution =2.533318 MHz
+[2015.06.04-12.15.28:382][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=131072.0GB
+[2015.06.04-12.15.28:382][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.04-12.15.28:382][  0]LogMemory: Process Physical Memory: 45.98 MB used, 45.98 MB peak
+[2015.06.04-12.15.28:382][  0]LogMemory: Process Virtual Memory: 25.00 MB used, 25.00 MB peak
+[2015.06.04-12.15.28:382][  0]LogMemory: Physical Memory: 2515.13 MB used, 3992.94 MB total
+[2015.06.04-12.15.28:382][  0]LogMemory: Virtual Memory: 292.70 MB used, 134217728.00 MB total
+[2015.06.04-12.15.28:418][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 650M  (Feature Level 11_0)
+[2015.06.04-12.15.28:418][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 1996MB of shared system memory, 1 output[s]
+[2015.06.04-12.15.28:440][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 650M  (Feature Level 11_0)
+[2015.06.04-12.15.28:440][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 1996MB of shared system memory, 0 output[s]
+[2015.06.04-12.15.28:444][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.04-12.15.28:444][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 1996MB of shared system memory, 0 output[s]
+[2015.06.04-12.15.28:444][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.04-12.15.28:450][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.06.04-12.15.28:464][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.04-12.15.28:539][  0]LogTextLocalizationManager: The requested culture ('pl_PL') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.06.04-12.15.28:668][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.06.04-12.15.28:668][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.06.04-12.15.28:784][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.04-12.15.32:367][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.04-12.15.33:305][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.04-12.15.33:398][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.04-12.15.33:464][  0]LogDerivedDataCache: Loaded boot cache 0.07s 39MB C:/Users/Bartlomiej/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.04-12.15.33:464][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bartlomiej/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.04-12.15.33:464][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/PROJECTS/FastOrNot/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.04-12.15.33:464][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.04-12.15.33:630][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.04-12.15.33:643][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bartlomiej/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.04-12.15.34:128][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.04-12.15.34:128][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.04-12.15.34:657][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.04-12.15.34:780][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.04-12.15.36:072][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.04-12.15.36:378][  0]SourceControl: Info Source control is disabled
+[2015.06.04-12.15.36:378][  0]SourceControl: Info Source control is disabled
+[2015.06.04-12.15.36:378][  0]SourceControl: Info Source control is disabled
+[2015.06.04-12.15.36:378][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.04-12.15.36:378][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.06.04-12.15.36:395][  0]SourceControl: Info Source control is disabled
+[2015.06.04-12.15.36:737][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.04-12.15.36:737][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.06.04-12.15.36:873][  0]LogEngine: Initializing Engine...
+[2015.06.04-12.15.39:118][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.04-12.15.39:131][  0]LogInit: FAudioDevice initialized.
+[2015.06.04-12.15.39:189][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.04-12.15.39:225][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Bartlomiej/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.04-12.15.39:230][  0]LogInit: Texture streaming: Enabled
+[2015.06.04-12.15.39:383][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.04-12.15.39:383][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.04-12.15.39:383][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.04-12.15.39:383][  0]LogAnalytics: SetUserId b575e53349a6030bdb0cada0eb56732d|fe5ea6b6aed344da974d7574eed642ec|80630477-f6c0-4149-b540-877d31428d0f
+[2015.06.04-12.15.39:383][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.04-12.15.39:420][  0]LogInit: Transaction tracking system initialized
+[2015.06.04-12.15.39:725][  0]BlueprintLog: New page: Editor Load
+[2015.06.04-12.15.39:768][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.06.04-12.15.39:769][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.04-12.15.40:965][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.04-12.15.41:702][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.04-12.15.47:765][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.04-12.15.47:765][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.04-12.15.47:781][  0]LogConsoleResponse:Display: 
+[2015.06.04-12.15.48:076][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.04-12.15.48:298][  0]SourceControl: Info Source control is disabled
+[2015.06.04-12.15.48:306][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.06.04-12.15.48:306][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.06.04-12.15.48:306][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.7/FeaturePacks/StarterContent.upack)
+[2015.06.04-12.15.50:667][  0]LogPackFactory: Content/StarterContent/Architecture/Floor_400x400.uasset (48141) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.06.04-12.15.50:668][  0]LogPackFactory: Content/StarterContent/Architecture/Pillar_50x500.uasset (65452) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2015.06.04-12.15.50:669][  0]LogPackFactory: Content/StarterContent/Architecture/SM_AssetPlatform.uasset (452977) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2015.06.04-12.15.50:713][  0]LogPackFactory: Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset (441) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset
+[2015.06.04-12.15.50:714][  0]LogPackFactory: Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset (439) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset
+[2015.06.04-12.15.50:714][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x200.uasset (42169) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/Wall_400x200.uasset
+[2015.06.04-12.15.50:715][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x300.uasset (41804) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/Wall_400x300.uasset
+[2015.06.04-12.15.50:716][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x400.uasset (43426) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/Wall_400x400.uasset
+[2015.06.04-12.15.50:716][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_500x500.uasset (57909) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/Wall_500x500.uasset
+[2015.06.04-12.15.50:717][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x300.uasset (52430) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2015.06.04-12.15.50:717][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x400.uasset (53246) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2015.06.04-12.15.50:718][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x300.uasset (53709) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2015.06.04-12.15.50:719][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x400.uasset (54778) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2015.06.04-12.15.50:719][  0]LogPackFactory: Content/StarterContent/Audio/Collapse01.uasset (348532) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Collapse01.uasset
+[2015.06.04-12.15.50:720][  0]LogPackFactory: Content/StarterContent/Audio/Collapse02.uasset (346701) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Collapse02.uasset
+[2015.06.04-12.15.50:729][  0]LogPackFactory: Content/StarterContent/Audio/Collapse_Cue.uasset (6113) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Collapse_Cue.uasset
+[2015.06.04-12.15.50:730][  0]LogPackFactory: Content/StarterContent/Audio/Explosion01.uasset (282440) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Explosion01.uasset
+[2015.06.04-12.15.50:748][  0]LogPackFactory: Content/StarterContent/Audio/Explosion02.uasset (289195) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Explosion02.uasset
+[2015.06.04-12.15.50:757][  0]LogPackFactory: Content/StarterContent/Audio/Explosion_Cue.uasset (7657) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Explosion_Cue.uasset
+[2015.06.04-12.15.50:758][  0]LogPackFactory: Content/StarterContent/Audio/Fire01.uasset (549696) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Fire01.uasset
+[2015.06.04-12.15.50:759][  0]LogPackFactory: Content/StarterContent/Audio/Fire01_Cue.uasset (3894) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Fire01_Cue.uasset
+[2015.06.04-12.15.50:760][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01.uasset (796274) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2015.06.04-12.15.50:761][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset (3908) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2015.06.04-12.15.50:762][  0]LogPackFactory: Content/StarterContent/Audio/Light01.uasset (364532) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Light01.uasset
+[2015.06.04-12.15.50:763][  0]LogPackFactory: Content/StarterContent/Audio/Light01_Cue.uasset (3852) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Light01_Cue.uasset
+[2015.06.04-12.15.50:763][  0]LogPackFactory: Content/StarterContent/Audio/Light02.uasset (308156) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Light02.uasset
+[2015.06.04-12.15.50:788][  0]LogPackFactory: Content/StarterContent/Audio/Light02_Cue.uasset (3852) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Light02_Cue.uasset
+[2015.06.04-12.15.50:792][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01.uasset (476002) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Smoke01.uasset
+[2015.06.04-12.15.50:795][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01_Cue.uasset (3872) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2015.06.04-12.15.50:796][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Background_Cue.uasset (9874) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2015.06.04-12.15.50:796][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Birds01.uasset (2689459) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Starter_Birds01.uasset
+[2015.06.04-12.15.50:799][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music01.uasset (8445372) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Starter_Music01.uasset
+[2015.06.04-12.15.50:807][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music_Cue.uasset (3390) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2015.06.04-12.15.50:808][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind05.uasset (2312702) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Starter_Wind05.uasset
+[2015.06.04-12.15.50:811][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind06.uasset (2195539) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Starter_Wind06.uasset
+[2015.06.04-12.15.50:820][  0]LogPackFactory: Content/StarterContent/Audio/Steam01.uasset (819028) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Steam01.uasset
+[2015.06.04-12.15.50:821][  0]LogPackFactory: Content/StarterContent/Audio/Steam01_Cue.uasset (3900) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Audio/Steam01_Cue.uasset
+[2015.06.04-12.15.50:822][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset (1011) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2015.06.04-12.15.50:837][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset (44857) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2015.06.04-12.15.50:838][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset (67062) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2015.06.04-12.15.50:841][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset (100458) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2015.06.04-12.15.50:842][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset (75669) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2015.06.04-12.15.50:844][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/Skybox.uasset (644855) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2015.06.04-12.15.50:846][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset (520136) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2015.06.04-12.15.50:847][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset (1506) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2015.06.04-12.15.50:847][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset (66613) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2015.06.04-12.15.50:848][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset (8324) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2015.06.04-12.15.50:849][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset (8332) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2015.06.04-12.15.50:849][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset (8346) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2015.06.04-12.15.50:856][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset (8365) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2015.06.04-12.15.50:856][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset (8354) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2015.06.04-12.15.50:857][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset (52866) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2015.06.04-12.15.50:875][  0]LogPackFactory: Content/StarterContent/Blueprints/BP_LightStudio.uasset (337416) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2015.06.04-12.15.50:876][  0]LogPackFactory: Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset (72364642) -> E:/PROJECTS/FastOrNot/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2015.06.04-12.15.50:968][  0]LogPackFactory: Content/StarterContent/Maps/Advanced_Lighting.umap (223408) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Maps/Advanced_Lighting.umap
+[2015.06.04-12.15.50:970][  0]LogPackFactory: Content/StarterContent/Maps/Minimal_Default.umap (2154106) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Maps/Minimal_Default.umap
+[2015.06.04-12.15.50:974][  0]LogPackFactory: Content/StarterContent/Maps/StarterMap.umap (16371806) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Maps/StarterMap.umap
+[2015.06.04-12.15.50:996][  0]LogPackFactory: Content/StarterContent/Materials/M_AssetPlatform.uasset (68672) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2015.06.04-12.15.50:997][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Floor.uasset (65286) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2015.06.04-12.15.50:998][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Wall.uasset (55455) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2015.06.04-12.15.50:998][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset (100568) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2015.06.04-12.15.50:999][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_New.uasset (130734) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2015.06.04-12.15.51:000][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Old.uasset (123390) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2015.06.04-12.15.51:000][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset (122803) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2015.06.04-12.15.51:001][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset (90915) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2015.06.04-12.15.51:002][  0]LogPackFactory: Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset (91562) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2015.06.04-12.15.51:002][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset (122364) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2015.06.04-12.15.51:003][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Rough.uasset (199387) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2015.06.04-12.15.51:004][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset (206806) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2015.06.04-12.15.51:004][  0]LogPackFactory: Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset (85099) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2015.06.04-12.15.51:005][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Grime.uasset (91620) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2015.06.04-12.15.51:037][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Panels.uasset (102285) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2015.06.04-12.15.51:038][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Poured.uasset (104859) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2015.06.04-12.15.51:038][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Tiles.uasset (105831) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2015.06.04-12.15.51:039][  0]LogPackFactory: Content/StarterContent/Materials/M_Glass.uasset (48151) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Glass.uasset
+[2015.06.04-12.15.51:039][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Grass.uasset (95378) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2015.06.04-12.15.51:040][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Gravel.uasset (120447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2015.06.04-12.15.51:041][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Moss.uasset (128000) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2015.06.04-12.15.51:042][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset (79826) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2015.06.04-12.15.51:043][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset (97779) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2015.06.04-12.15.51:044][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Chrome.uasset (79618) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2015.06.04-12.15.51:044][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Copper.uasset (94475) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2015.06.04-12.15.51:045][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Gold.uasset (96084) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2015.06.04-12.15.51:045][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Rust.uasset (109365) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2015.06.04-12.15.51:048][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Steel.uasset (96230) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2015.06.04-12.15.51:049][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Basalt.uasset (121462) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2015.06.04-12.15.51:049][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset (98409) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2015.06.04-12.15.51:050][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Sandstone.uasset (113552) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2015.06.04-12.15.51:051][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Slate.uasset (110874) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2015.06.04-12.15.51:053][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset (98373) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2015.06.04-12.15.51:056][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset (140303) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2015.06.04-12.15.51:063][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset (115223) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2015.06.04-12.15.51:064][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Panel.uasset (98003) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2015.06.04-12.15.51:065][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Lake.uasset (96267) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Water_Lake.uasset
+[2015.06.04-12.15.51:065][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Ocean.uasset (100717) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2015.06.04-12.15.51:066][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset (82816) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2015.06.04-12.15.51:066][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset (100628) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2015.06.04-12.15.51:067][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Oak.uasset (107121) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2015.06.04-12.15.51:068][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Pine.uasset (97740) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2015.06.04-12.15.51:068][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Walnut.uasset (93022) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2015.06.04-12.15.51:069][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Burst.uasset (43524) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2015.06.04-12.15.51:070][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset (40952) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2015.06.04-12.15.51:071][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset (62151) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2015.06.04-12.15.51:072][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset (62224) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2015.06.04-12.15.51:072][  0]LogPackFactory: Content/StarterContent/Particles/Materials/m_flare_01.uasset (48172) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2015.06.04-12.15.51:076][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset (38287) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2015.06.04-12.15.51:077][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset (41181) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2015.06.04-12.15.51:091][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_radial_ramp.uasset (41193) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2015.06.04-12.15.51:093][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset (76603) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2015.06.04-12.15.51:097][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Spark.uasset (43678) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2015.06.04-12.15.51:098][  0]LogPackFactory: Content/StarterContent/Particles/P_Ambient_Dust.uasset (43456) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2015.06.04-12.15.51:099][  0]LogPackFactory: Content/StarterContent/Particles/P_Explosion.uasset (280221) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/P_Explosion.uasset
+[2015.06.04-12.15.51:100][  0]LogPackFactory: Content/StarterContent/Particles/P_Fire.uasset (259431) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/P_Fire.uasset
+[2015.06.04-12.15.51:101][  0]LogPackFactory: Content/StarterContent/Particles/P_Smoke.uasset (65670) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/P_Smoke.uasset
+[2015.06.04-12.15.51:102][  0]LogPackFactory: Content/StarterContent/Particles/P_Sparks.uasset (171805) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/P_Sparks.uasset
+[2015.06.04-12.15.51:103][  0]LogPackFactory: Content/StarterContent/Particles/P_Steam_Lit.uasset (117332) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2015.06.04-12.15.51:104][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Bush.uasset (99988) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/Materials/M_Bush.uasset
+[2015.06.04-12.15.51:104][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Chair.uasset (90187) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2015.06.04-12.15.51:105][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Door.uasset (87249) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/Materials/M_Door.uasset
+[2015.06.04-12.15.51:106][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Frame.uasset (78682) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/Materials/M_Frame.uasset
+[2015.06.04-12.15.51:106][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Lamp.uasset (90486) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2015.06.04-12.15.51:107][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere.uasset (66766) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2015.06.04-12.15.51:108][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset (58832) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2015.06.04-12.15.51:108][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Rock.uasset (114715) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/Materials/M_Rock.uasset
+[2015.06.04-12.15.51:109][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Shelf.uasset (78255) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2015.06.04-12.15.51:111][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Statue.uasset (72790) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/Materials/M_Statue.uasset
+[2015.06.04-12.15.51:112][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_StatueGlass.uasset (56436) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2015.06.04-12.15.51:113][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_TableRound.uasset (89531) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2015.06.04-12.15.51:113][  0]LogPackFactory: Content/StarterContent/Props/MaterialSphere.uasset (174533) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/MaterialSphere.uasset
+[2015.06.04-12.15.51:114][  0]LogPackFactory: Content/StarterContent/Props/SM_Bush.uasset (152902) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_Bush.uasset
+[2015.06.04-12.15.51:115][  0]LogPackFactory: Content/StarterContent/Props/SM_Chair.uasset (213058) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_Chair.uasset
+[2015.06.04-12.15.51:115][  0]LogPackFactory: Content/StarterContent/Props/SM_CornerFrame.uasset (104587) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_CornerFrame.uasset
+[2015.06.04-12.15.51:117][  0]LogPackFactory: Content/StarterContent/Props/SM_Couch.uasset (254658) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_Couch.uasset
+[2015.06.04-12.15.51:118][  0]LogPackFactory: Content/StarterContent/Props/SM_Door.uasset (214917) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_Door.uasset
+[2015.06.04-12.15.51:119][  0]LogPackFactory: Content/StarterContent/Props/SM_DoorFrame.uasset (65546) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_DoorFrame.uasset
+[2015.06.04-12.15.51:119][  0]LogPackFactory: Content/StarterContent/Props/SM_GlassWindow.uasset (97538) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_GlassWindow.uasset
+[2015.06.04-12.15.51:120][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Ceiling.uasset (318571) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2015.06.04-12.15.51:121][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Wall.uasset (140246) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2015.06.04-12.15.51:121][  0]LogPackFactory: Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset (2396647) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2015.06.04-12.15.51:137][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame.uasset (127007) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_PillarFrame.uasset
+[2015.06.04-12.15.51:138][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame300.uasset (124350) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2015.06.04-12.15.51:139][  0]LogPackFactory: Content/StarterContent/Props/SM_Rock.uasset (175516) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_Rock.uasset
+[2015.06.04-12.15.51:139][  0]LogPackFactory: Content/StarterContent/Props/SM_Shelf.uasset (108862) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_Shelf.uasset
+[2015.06.04-12.15.51:140][  0]LogPackFactory: Content/StarterContent/Props/SM_Stairs.uasset (66807) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_Stairs.uasset
+[2015.06.04-12.15.51:141][  0]LogPackFactory: Content/StarterContent/Props/SM_Statue.uasset (537153) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_Statue.uasset
+[2015.06.04-12.15.51:142][  0]LogPackFactory: Content/StarterContent/Props/SM_TableRound.uasset (528732) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_TableRound.uasset
+[2015.06.04-12.15.51:143][  0]LogPackFactory: Content/StarterContent/Props/SM_WindowFrame.uasset (68758) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Props/SM_WindowFrame.uasset
+[2015.06.04-12.15.51:143][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cone.uasset (94233) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Cone.uasset
+[2015.06.04-12.15.51:148][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cube.uasset (45498) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Cube.uasset
+[2015.06.04-12.15.51:148][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cylinder.uasset (109276) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2015.06.04-12.15.51:149][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset (211325) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2015.06.04-12.15.51:150][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe.uasset (78407) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2015.06.04-12.15.51:150][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_180.uasset (193692) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2015.06.04-12.15.51:151][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_90.uasset (120200) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2015.06.04-12.15.51:152][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Plane.uasset (43121) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Plane.uasset
+[2015.06.04-12.15.51:152][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_QuadPyramid.uasset (43744) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2015.06.04-12.15.51:153][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Sphere.uasset (264634) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2015.06.04-12.15.51:154][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Torus.uasset (558042) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Torus.uasset
+[2015.06.04-12.15.51:156][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim.uasset (51867) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Trim.uasset
+[2015.06.04-12.15.51:157][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_In.uasset (74804) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2015.06.04-12.15.51:157][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset (75706) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2015.06.04-12.15.51:158][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_TriPyramid.uasset (41629) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2015.06.04-12.15.51:158][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Tube.uasset (190123) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Tube.uasset
+[2015.06.04-12.15.51:159][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_A.uasset (45020) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2015.06.04-12.15.51:159][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_B.uasset (40642) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2015.06.04-12.15.51:160][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_WideCapsule.uasset (150007) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2015.06.04-12.15.51:161][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2.uasset (446) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/Metal_Tile_2.uasset
+[2015.06.04-12.15.51:162][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2_N.uasset (450) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/Metal_Tile_2_N.uasset
+[2015.06.04-12.15.51:162][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048.uasset (446) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/Sky54a2048.uasset
+[2015.06.04-12.15.51:163][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048LDR.uasset (449) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/Sky54a2048LDR.uasset
+[2015.06.04-12.15.51:163][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01.uasset (450) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_ArmorMetal01.uasset
+[2015.06.04-12.15.51:164][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01_N.uasset (452) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset
+[2015.06.04-12.15.51:164][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_D.uasset (446) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Bark02_D.uasset
+[2015.06.04-12.15.51:165][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_N.uasset (446) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Bark02_N.uasset
+[2015.06.04-12.15.51:165][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset (455) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset
+[2015.06.04-12.15.51:166][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset (455) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset
+[2015.06.04-12.15.51:166][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset (7649619) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2015.06.04-12.15.51:188][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset (8326301) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2015.06.04-12.15.51:197][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset (7553391) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2015.06.04-12.15.51:215][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset (6035708) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2015.06.04-12.15.51:280][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset (9201530) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2015.06.04-12.15.51:435][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset (7865847) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2015.06.04-12.15.51:666][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset (11424774) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2015.06.04-12.15.52:099][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset (7794699) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2015.06.04-12.15.52:386][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset (13386492) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2015.06.04-12.15.52:566][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset (6679434) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2015.06.04-12.15.52:696][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset (7446677) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2015.06.04-12.15.52:870][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset (6802269) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2015.06.04-12.15.53:015][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset (8992435) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2015.06.04-12.15.53:188][  0]LogPackFactory: Content/StarterContent/Textures/T_Burst_M.uasset (150025) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Burst_M.uasset
+[2015.06.04-12.15.53:188][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_D.uasset (552540) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Bush_D.uasset
+[2015.06.04-12.15.53:423][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_N.uasset (396574) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Bush_N.uasset
+[2015.06.04-12.15.53:424][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset (277243) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2015.06.04-12.15.53:425][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset (228293) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2015.06.04-12.15.53:426][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_M.uasset (576769) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Chair_M.uasset
+[2015.06.04-12.15.53:445][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_N.uasset (1937145) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Chair_N.uasset
+[2015.06.04-12.15.53:448][  0]LogPackFactory: Content/StarterContent/Textures/T_Checker_Noise_M.uasset (158406) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2015.06.04-12.15.53:482][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_M.uasset (432) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Cliff_M.uasset
+[2015.06.04-12.15.53:482][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_N.uasset (432) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Cliff_N.uasset
+[2015.06.04-12.15.53:787][  0]LogPackFactory: Content/StarterContent/Textures/T_Cobble_01_H.uasset (449) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Cobble_01_H.uasset
+[2015.06.04-12.15.53:787][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleDark_01_D.uasset (453) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset
+[2015.06.04-12.15.53:788][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_D.uasset (454) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset
+[2015.06.04-12.15.53:788][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_N.uasset (454) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset
+[2015.06.04-12.15.54:043][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_R.uasset (454) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset
+[2015.06.04-12.15.54:043][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset (455) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset
+[2015.06.04-12.15.54:044][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset (11812314) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2015.06.04-12.15.54:065][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset (1313598) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2015.06.04-12.15.54:254][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset (11858728) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2015.06.04-12.15.54:554][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset (2936250) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2015.06.04-12.15.54:557][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset (2700400) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2015.06.04-12.15.54:560][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset (6603341) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2015.06.04-12.15.54:742][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset (5739577) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2015.06.04-12.15.55:151][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset (8846507) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2015.06.04-12.15.55:530][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_D.uasset (450) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete01_D.uasset
+[2015.06.04-12.15.55:531][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_N.uasset (450) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete01_N.uasset
+[2015.06.04-12.15.55:714][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_D.uasset (451) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_01_D.uasset
+[2015.06.04-12.15.55:715][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_N.uasset (451) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_01_N.uasset
+[2015.06.04-12.15.55:716][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_D.uasset (448) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_D.uasset
+[2015.06.04-12.15.55:716][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01.uasset (454) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Floor01.uasset
+[2015.06.04-12.15.55:836][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset (456) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset
+[2015.06.04-12.15.55:837][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Grime_D.uasset (10691506) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2015.06.04-12.15.55:849][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_N.uasset (448) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_N.uasset
+[2015.06.04-12.15.55:850][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_D.uasset (8513286) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2015.06.04-12.15.55:893][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_N.uasset (6558914) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2015.06.04-12.15.55:899][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_D.uasset (11600993) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2015.06.04-12.15.55:913][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_N.uasset (7452814) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2015.06.04-12.15.56:035][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset (4956380) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2015.06.04-12.15.56:234][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset (5759659) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2015.06.04-12.15.56:458][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset (6611650) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2015.06.04-12.15.56:663][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset (4809) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2015.06.04-12.15.56:664][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07.uasset (453) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Wall07.uasset
+[2015.06.04-12.15.56:767][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset (455) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset
+[2015.06.04-12.15.56:767][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_D.uasset (453) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset
+[2015.06.04-12.15.56:767][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_N.uasset (453) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset
+[2015.06.04-12.15.56:768][  0]LogPackFactory: Content/StarterContent/Textures/T_DesertCrystal01_N.uasset (455) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset
+[2015.06.04-12.15.56:988][  0]LogPackFactory: Content/StarterContent/Textures/T_Detail_Rocky_N.uasset (2850093) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2015.06.04-12.15.57:115][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_D.uasset (444) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Dirt_D.uasset
+[2015.06.04-12.15.57:116][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_N.uasset (444) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Dirt_N.uasset
+[2015.06.04-12.15.57:116][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_M.uasset (554190) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Door_M.uasset
+[2015.06.04-12.15.57:365][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_N.uasset (1074859) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Door_N.uasset
+[2015.06.04-12.15.57:367][  0]LogPackFactory: Content/StarterContent/Textures/T_Dust_Particle_D.uasset (32071) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2015.06.04-12.15.57:368][  0]LogPackFactory: Content/StarterContent/Textures/T_Explosion_SubUV.uasset (3004336) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2015.06.04-12.15.57:371][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_SubUV.uasset (525012) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2015.06.04-12.15.57:475][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_Tiled_D.uasset (553370) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2015.06.04-12.15.57:661][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_M.uasset (536068) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Frame_M.uasset
+[2015.06.04-12.15.57:848][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_N.uasset (1249187) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Frame_N.uasset
+[2015.06.04-12.15.57:849][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset (461) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset
+[2015.06.04-12.15.57:951][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset (463) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset
+[2015.06.04-12.15.57:952][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset (463) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset
+[2015.06.04-12.15.57:952][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset (463) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset
+[2015.06.04-12.15.57:953][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset (462) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset
+[2015.06.04-12.15.58:106][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset (464) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset
+[2015.06.04-12.15.58:107][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset (462) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset
+[2015.06.04-12.15.58:107][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset (464) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset
+[2015.06.04-12.15.58:107][  0]LogPackFactory: Content/StarterContent/Textures/T_Gradinet_01.uasset (5447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2015.06.04-12.15.58:294][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_D.uasset (425) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Gravel_D.uasset
+[2015.06.04-12.15.58:295][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_N.uasset (425) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Gravel_N.uasset
+[2015.06.04-12.15.58:297][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_D.uasset (449) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ground_01_D.uasset
+[2015.06.04-12.15.58:298][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_N.uasset (449) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ground_01_N.uasset
+[2015.06.04-12.15.58:343][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_D.uasset (449) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ground_02_D.uasset
+[2015.06.04-12.15.58:603][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_N.uasset (449) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ground_02_N.uasset
+[2015.06.04-12.15.58:604][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Detail_N.uasset (453) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ground_Detail_N.uasset
+[2015.06.04-12.15.58:604][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_D.uasset (451) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset
+[2015.06.04-12.15.58:737][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_N.uasset (451) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset
+[2015.06.04-12.15.58:738][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_D.uasset (12014827) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2015.06.04-12.15.58:748][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_N.uasset (11617917) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2015.06.04-12.15.58:987][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_D.uasset (10627659) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2015.06.04-12.15.59:103][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_N.uasset (7408581) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2015.06.04-12.15.59:110][  0]LogPackFactory: Content/StarterContent/Textures/T_ground_Moss_D.uasset (13034653) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2015.06.04-12.15.59:125][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Moss_N.uasset (8389816) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2015.06.04-12.15.59:165][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Noise_N.uasset (431) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Ground_Noise_N.uasset
+[2015.06.04-12.15.59:166][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_M.uasset (781809) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Lamp_M.uasset
+[2015.06.04-12.15.59:167][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_N.uasset (2076923) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Lamp_N.uasset
+[2015.06.04-12.15.59:169][  0]LogPackFactory: Content/StarterContent/Textures/T_MacroVariation.uasset (10882792) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_MacroVariation.uasset
+[2015.06.04-12.15.59:183][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset (9680629) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2015.06.04-12.15.59:200][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Copper_D.uasset (8854788) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2015.06.04-12.15.59:209][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset (460) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset
+[2015.06.04-12.15.59:209][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset (460) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset
+[2015.06.04-12.15.59:210][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_D.uasset (8838906) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2015.06.04-12.15.59:310][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_N.uasset (2813572) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2015.06.04-12.15.59:548][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_D.uasset (453) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset
+[2015.06.04-12.15.59:548][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_N.uasset (453) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset
+[2015.06.04-12.15.59:549][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_D.uasset (453) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset
+[2015.06.04-12.15.59:612][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_N.uasset (453) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset
+[2015.06.04-12.15.59:613][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset (456) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset
+[2015.06.04-12.15.59:613][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset (456) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset
+[2015.06.04-12.15.59:614][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset (453) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset
+[2015.06.04-12.15.59:637][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset (453) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset
+[2015.06.04-12.15.59:638][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_D.uasset (9329320) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2015.06.04-12.15.59:887][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_N.uasset (7504761) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2015.06.04-12.15.59:924][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset (453) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset
+[2015.06.04-12.16.00:137][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset (453) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset
+[2015.06.04-12.16.00:138][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_D.uasset (3581726) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2015.06.04-12.16.00:142][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_N.uasset (4922590) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2015.06.04-12.16.00:148][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset (456) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset
+[2015.06.04-12.16.00:331][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset (456) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset
+[2015.06.04-12.16.00:332][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01.uasset (452) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_PaintedMetal01.uasset
+[2015.06.04-12.16.00:334][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01_N.uasset (454) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset
+[2015.06.04-12.16.00:335][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_D.uasset (451) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_PatchyGrass_D.uasset
+[2015.06.04-12.16.00:364][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_N.uasset (451) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_PatchyGrass_N.uasset
+[2015.06.04-12.16.00:365][  0]LogPackFactory: Content/StarterContent/Textures/T_Perlin_Noise_M.uasset (7869402) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2015.06.04-12.16.00:384][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_D.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_01_D.uasset
+[2015.06.04-12.16.00:385][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_N.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_01_N.uasset
+[2015.06.04-12.16.00:508][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_D.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_03_D.uasset
+[2015.06.04-12.16.00:509][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_N.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_03_N.uasset
+[2015.06.04-12.16.00:510][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_D.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_05_D.uasset
+[2015.06.04-12.16.00:511][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_N.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_05_N.uasset
+[2015.06.04-12.16.00:908][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_D.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_06_D.uasset
+[2015.06.04-12.16.00:908][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_N.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_06_N.uasset
+[2015.06.04-12.16.00:909][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_D.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_07_D.uasset
+[2015.06.04-12.16.00:909][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_N.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_07_N.uasset
+[2015.06.04-12.16.01:029][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07b_D.uasset (448) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_07b_D.uasset
+[2015.06.04-12.16.01:030][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_D.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_08_D.uasset
+[2015.06.04-12.16.01:031][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_N.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_08_N.uasset
+[2015.06.04-12.16.01:032][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_09_D.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_09_D.uasset
+[2015.06.04-12.16.01:098][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_D.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_10_D.uasset
+[2015.06.04-12.16.01:099][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_N.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_10_N.uasset
+[2015.06.04-12.16.01:100][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_11b_D.uasset (448) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_11b_D.uasset
+[2015.06.04-12.16.01:100][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_D.uasset (9359943) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2015.06.04-12.16.01:181][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_N.uasset (7847129) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2015.06.04-12.16.01:190][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset (454) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset
+[2015.06.04-12.16.01:191][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset (454) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset
+[2015.06.04-12.16.01:193][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset (454) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset
+[2015.06.04-12.16.01:328][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset (5327483) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2015.06.04-12.16.01:503][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset (9234423) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2015.06.04-12.16.01:513][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset (8399811) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2015.06.04-12.16.01:669][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_D.uasset (12333988) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2015.06.04-12.16.01:935][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_N.uasset (9649859) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2015.06.04-12.16.01:946][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset (8829490) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2015.06.04-12.16.02:022][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_M.uasset (2706973) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2015.06.04-12.16.02:025][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_N.uasset (5375053) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2015.06.04-12.16.02:196][  0]LogPackFactory: Content/StarterContent/Textures/T_Rocky_01_N.uasset (448) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Rocky_01_N.uasset
+[2015.06.04-12.16.02:197][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_M.uasset (651298) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Shelf_M.uasset
+[2015.06.04-12.16.02:198][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_N.uasset (1639501) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Shelf_N.uasset
+[2015.06.04-12.16.02:200][  0]LogPackFactory: Content/StarterContent/Textures/T_Single_Tile_N.uasset (6402) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2015.06.04-12.16.02:403][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Clouds_M.uasset (450) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset
+[2015.06.04-12.16.02:403][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Stars.uasset (447) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Sky_Stars.uasset
+[2015.06.04-12.16.02:403][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_SubUV.uasset (2630744) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2015.06.04-12.16.02:406][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset (91431) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2015.06.04-12.16.02:455][  0]LogPackFactory: Content/StarterContent/Textures/T_Spark_Core.uasset (162316) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Spark_Core.uasset
+[2015.06.04-12.16.02:456][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_M.uasset (546786) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Statue_M.uasset
+[2015.06.04-12.16.02:457][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_N.uasset (515360) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Statue_N.uasset
+[2015.06.04-12.16.02:458][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_D.uasset (451) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Stone_Brick_D.uasset
+[2015.06.04-12.16.02:613][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_N.uasset (451) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Stone_Brick_N.uasset
+[2015.06.04-12.16.02:613][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_M.uasset (870486) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_TableRound_M.uasset
+[2015.06.04-12.16.02:615][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_N.uasset (1549086) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_TableRound_N.uasset
+[2015.06.04-12.16.02:616][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_M.uasset (107174) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2015.06.04-12.16.02:695][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_N.uasset (202333) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2015.06.04-12.16.02:696][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset (793459) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2015.06.04-12.16.02:697][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset (493875) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2015.06.04-12.16.02:835][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_M.uasset (979689) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2015.06.04-12.16.02:912][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_N.uasset (1860674) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2015.06.04-12.16.02:915][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset (461) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset
+[2015.06.04-12.16.02:915][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset (461) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset
+[2015.06.04-12.16.02:916][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02.uasset (452) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_UNV_Concrete02.uasset
+[2015.06.04-12.16.03:078][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset (454) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset
+[2015.06.04-12.16.03:078][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_M.uasset (1696467) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Water_M.uasset
+[2015.06.04-12.16.03:162][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_N.uasset (2087420) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Water_N.uasset
+[2015.06.04-12.16.03:164][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset (459) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset
+[2015.06.04-12.16.03:418][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset (459) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset
+[2015.06.04-12.16.03:418][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_a_d.uasset (446) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Wood_a_d.uasset
+[2015.06.04-12.16.03:419][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_N.uasset (446) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Wood_A_N.uasset
+[2015.06.04-12.16.03:419][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_S.uasset (446) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Wood_A_S.uasset
+[2015.06.04-12.16.03:620][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset (4584206) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2015.06.04-12.16.03:754][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset (3940729) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2015.06.04-12.16.03:758][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset (2858538) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2015.06.04-12.16.03:762][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_D.uasset (6707252) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2015.06.04-12.16.03:859][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_N.uasset (6245295) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2015.06.04-12.16.03:865][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_D.uasset (9690724) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2015.06.04-12.16.03:873][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_N.uasset (3467174) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2015.06.04-12.16.03:883][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_D.uasset (6509713) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2015.06.04-12.16.03:946][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_N.uasset (3836013) -> E:/PROJECTS/FastOrNot/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2015.06.04-12.16.03:950][  0]LogPackFactory: Finished extracting 750 files (including 0 errors).
+[2015.06.04-12.16.04:526][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2015.06.04-12.16.04:604][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2015.06.04-12.16.04:610][  0]LogStaticMesh: Built static mesh [6.952542ms] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2015.06.04-12.16.05:104][  0]LogRenderer:Warning: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.06.04-12.16.05:340][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2015.06.04-12.16.06:070][  0]LogSavePackage: Save=545.159729ms
+[2015.06.04-12.16.06:070][  0]LogSavePackage: Moving 'E:/PROJECTS/FastOrNot/Saved/Floor_400x400CA17443949350B57216A2A9FE7E24EB9.tmp' to 'E:/PROJECTS/FastOrNot/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.06.04-12.16.06:073][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.06.04-12.16.06:077][  0]Cmd: MAP LOAD FILE="E:/PROJECTS/FastOrNot/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.04-12.16.06:292][  0]LightingResults: New page: Lighting Build
+[2015.06.04-12.16.06:328][  0]MapCheck: New page: Map Check
+[2015.06.04-12.16.06:328][  0]LightingResults: New page: Lighting Build
+[2015.06.04-12.16.06:379][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009A5E665760
+[2015.06.04-12.16.08:515][  0]LogTexture:Display: Building textures: T_Chair_N (BC5)
+[2015.06.04-12.16.09:812][  0]LogTexture:Display: Building textures: T_Chair_M (AutoDXT)
+[2015.06.04-12.16.14:121][  0]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2015.06.04-12.16.14:152][  0]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.06.04-12.16.14:247][  0]LogMaterial: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
+[2015.06.04-12.16.14:658][  0]LogTexture:Display: Building textures: T_Metal_Aluminum_D (AutoDXT)
+[2015.06.04-12.16.30:384][  0]LogTexture:Display: Building textures: T_Metal_Gold_N (BC5)
+[2015.06.04-12.16.32:307][  0]LogMaterial: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2015.06.04-12.16.32:949][  0]LogTexture:Display: Building textures: T_Metal_Copper_D (AutoDXT)
+[2015.06.04-12.16.53:054][  0]LogMaterial: Missing cached shader map for material M_Metal_Copper, compiling. 
+[2015.06.04-12.16.53:135][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Starter_Birds01...
+[2015.06.04-12.16.54:131][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Starter_Wind06...
+[2015.06.04-12.16.54:736][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Starter_Wind05...
+[2015.06.04-12.16.55:429][  0]LogStaticMesh: Building static mesh SM_Chair...
+[2015.06.04-12.16.55:471][  0]LogStaticMesh: Built static mesh [41.805649ms] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2015.06.04-12.16.55:649][  0]LogTexture:Display: Building textures: T_Statue_M (AutoDXT)
+[2015.06.04-12.16.57:658][  0]LogTexture:Display: Building textures: T_Statue_N (BC5)
+[2015.06.04-12.16.57:945][  0]LogMaterial: Missing cached shader map for material M_Statue, compiling. 
+[2015.06.04-12.16.57:967][  0]LogMaterial: Missing cached shader map for material M_StatueGlass, compiling. 
+[2015.06.04-12.16.57:999][  0]LogStaticMesh: Building static mesh SM_Statue...
+[2015.06.04-12.16.58:106][  0]LogStaticMesh: Built static mesh [107.011833ms] /Game/StarterContent/Props/SM_Statue.SM_Statue
+[2015.06.04-12.16.58:325][  0]LogTexture:Display: Building textures: T_TableRound_M (DXT1)
+[2015.06.04-12.17.00:992][  0]LogTexture:Display: Building textures: T_TableRound_N (BC5)
+[2015.06.04-12.17.02:359][  0]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2015.06.04-12.17.02:383][  0]LogStaticMesh: Building static mesh SM_TableRound...
+[2015.06.04-12.17.02:508][  0]LogStaticMesh: Built static mesh [123.764168ms] /Game/StarterContent/Props/SM_TableRound.SM_TableRound
+[2015.06.04-12.17.02:580][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.06.04-12.17.02:881][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.06.04-12.17.02:894][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.06.04-12.17.03:140][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.06.04-12.17.03:153][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.06.04-12.17.03:284][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.06.04-12.17.03:292][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.06.04-12.17.03:311][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.06.04-12.17.03:316][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.06.04-12.17.03:337][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.06.04-12.17.03:433][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.04-12.17.03:442][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.06.04-12.17.03:447][  0]Cmd: MAP CHECKDEP
+[2015.06.04-12.17.03:447][  0]MapCheck: New page: Minimal_Default - Jun 4, 2015, 4:17:03 PM
+[2015.06.04-12.17.03:612][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 165.358ms to complete.
+[2015.06.04-12.17.03:612][  0]LogFileHelpers: Loading map 'Minimal_Default' took 57.537
+[2015.06.04-12.17.03:986][  0]LogCollectionManager: Loaded 0 collections in 0.003608 seconds
+[2015.06.04-12.17.04:012][  0]LogContentBrowser: Native class hierarchy populated in 0.0258 seconds. Added 1696 classes and 261 folders.
+[2015.06.04-12.17.04:096][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0034 seconds. Added 1 classes and 2 folders.
+[2015.06.04-12.17.04:252][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.04-12.17.04:260][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.04-12.17.04:286][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.04-12.17.04:335][  0]LogLoad: Full Startup: 99.27 seconds (BP compile: 0.23 seconds)
+[2015.06.04-12.17.04:765][  0]LogRenderer:Warning: Reallocating scene render targets to support 856x400 (Frame:3).
+[2015.06.04-12.17.10:715][152]LogAssetRegistry: Asset discovery search completed in 90.9580 seconds
+[2015.06.04-12.17.22:261][532]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.06.04-12.17.23:104][550]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
+[2015.06.04-12.17.23:978][574]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.06.04-12.17.24:824][588]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Shapes'
+[2015.06.04-12.17.27:114][651]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2015.06.04-12.17.44:396][975]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.06.04-12.17.45:428][996]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Maps'
+[2015.06.04-12.17.46:586][ 34]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.06.04-12.17.53:503][ 78]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.06.04-12.17.55:297][128]Cmd: ACTOR SELECT ALL
+[2015.06.04-12.17.56:450][164]Cmd: DELETE
+[2015.06.04-12.17.56:450][164]Cmd: ACTOR DELETE
+[2015.06.04-12.17.56:451][164]LogEditorActor: Cannot delete special actor Brush /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Brush_1
+[2015.06.04-12.17.56:462][164]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2015.06.04-12.17.56:468][164]LogEditorActor: Deleted Actor: AmbientSound
+[2015.06.04-12.17.56:470][164]LogEditorActor: Deleted Actor: PostProcessVolume
+[2015.06.04-12.17.56:474][164]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.06.04-12.17.56:476][164]LogEditorActor: Deleted Actor: InstancedFoliageActor
+[2015.06.04-12.17.56:477][164]LogEditorActor: Deleted Actor: DirectionalLight
+[2015.06.04-12.17.56:479][164]LogEditorActor: Deleted Actor: PlayerStart
+[2015.06.04-12.17.56:482][164]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2015.06.04-12.17.56:483][164]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.04-12.17.56:484][164]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.04-12.17.56:501][164]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.04-12.17.56:507][164]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.04-12.17.56:508][164]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.04-12.17.56:509][164]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.04-12.17.56:600][164]LogEditorActor: Deleted 14 Actors (0.149 secs)
+[2015.06.04-12.17.59:759][255]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Maps'
+[2015.06.04-12.18.10:979][476]LightingResults: New page: Lighting Build
+[2015.06.04-12.18.10:981][476]MapCheck: New page: Map Check
+[2015.06.04-12.18.10:982][476]LightingResults: New page: Lighting Build
+[2015.06.04-12.18.11:056][476]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009A264471A0
+[2015.06.04-12.18.11:057][476]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.04-12.18.11:093][476]LoadErrors: New page: New Map
+[2015.06.04-12.18.11:753][476]LogAudio:Warning: Detected orphaned looping sound 'Starter_Background_Cue'.
+[2015.06.04-12.18.14:446][522]LogMaterial: Missing cached shader map for material M_LightStage_Arrows, compiling. 
+[2015.06.04-12.18.14:450][522]LogMaterial: Missing cached shader map for material M_LightStage_Skybox_Master, compiling. 
+[2015.06.04-12.18.14:454][522]LogStaticMesh: Building static mesh SM_Arrows...
+[2015.06.04-12.18.14:537][522]LogStaticMesh: Built static mesh [82.637077ms] /Game/StarterContent/Blueprints/Assets/SM_Arrows.SM_Arrows
+[2015.06.04-12.18.14:625][522]LogMaterial: Missing cached shader map for material M_LightStage_Skybox_Master, compiling. 
+[2015.06.04-12.18.16:190][522]LogTexture:Display: Building textures: HDRI_Epic_Courtyard_Daylight (RGBA16F)
+[2015.06.04-12.19.10:635][522]LogMaterial: Missing cached shader map for material M_AssetPlatform, compiling. 
+[2015.06.04-12.19.10:735][522]LogStaticMesh: Building static mesh SM_AssetPlatform...
+[2015.06.04-12.19.10:910][522]LogStaticMesh: Built static mesh [175.005264ms] /Game/StarterContent/Architecture/SM_AssetPlatform.SM_AssetPlatform
+[2015.06.04-12.19.10:958][522]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.06.04-12.19.11:005][522]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.06.04-12.19.11:015][522]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.06.04-12.19.11:077][522]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.06.04-12.19.11:146][522]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.06.04-12.19.11:167][522]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.06.04-12.19.11:204][522]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2015.06.04-12.19.11:207][522]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.06.04-12.19.11:215][522]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.06.04-12.19.11:217][522]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.06.04-12.19.16:389][522]Cmd: MAP LOAD FILE="E:/PROJECTS/FastOrNot/Content/StarterContent/Maps/Advanced_Lighting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.04-12.19.16:391][522]LightingResults: New page: Lighting Build
+[2015.06.04-12.19.16:463][522]LoadErrors: New page: Loading map: Advanced_Lighting.umap
+[2015.06.04-12.19.16:464][522]MapCheck: New page: Map Check
+[2015.06.04-12.19.16:464][522]LightingResults: New page: Lighting Build
+[2015.06.04-12.19.16:518][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009A566EED40
+[2015.06.04-12.19.16:527][522]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.04-12.19.16:532][522]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2015.06.04-12.19.16:547][522]Cmd: MAP CHECKDEP
+[2015.06.04-12.19.16:548][522]MapCheck: New page: Advanced_Lighting - Jun 4, 2015, 4:19:16 PM
+[2015.06.04-12.19.16:788][522]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 241.073ms to complete.
+[2015.06.04-12.19.16:790][522]LogFileHelpers: Loading map 'Advanced_Lighting' took 0.407
+[2015.06.04-12.19.31:144][789]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.04-12.19.31:146][789]PIE: New page: PIE session: Advanced_Lighting (Jun 4, 2015, 4:19:31 PM)
+[2015.06.04-12.19.31:152][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006266s)
+[2015.06.04-12.19.31:153][789]LogPlayLevel: PIE: World Init took: (0.001169s)
+[2015.06.04-12.19.31:154][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting to /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting.Advanced_Lighting (0.008296s)
+[2015.06.04-12.19.31:237][789]LogWorld: Game class is 'GameMode'
+[2015.06.04-12.19.31:259][789]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2015.06.04-12.19.31:263][789]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting.Advanced_Lighting up for play (max tick rate 60) at 2015.06.04-14.19.31
+[2015.06.04-12.19.31:265][789]LogWorld: Bringing up level for play took: 0.005867
+[2015.06.04-12.19.31:282][789]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Advanced_Lighting -0.803
+[2015.06.04-12.20.12:135][ 60]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009A566EF240
+[2015.06.04-12.20.19:272][173]LightingResults: New page: Lighting Build
+[2015.06.04-12.20.19:273][173]MapCheck: New page: Map Check
+[2015.06.04-12.20.19:273][173]LightingResults: New page: Lighting Build
+[2015.06.04-12.20.19:337][173]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009A5E519440
+[2015.06.04-12.20.19:340][173]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.04-12.20.19:370][173]LoadErrors: New page: New Map
+[2015.06.04-12.20.26:013][202]LogAudioDerivedData:Display: Building compressed audio format OGG wave Fire01...
+[2015.06.04-12.20.26:241][202]LogTexture:Display: Building textures: T_Fire_Tiled_D (AutoDXT)
+[2015.06.04-12.20.27:259][202]LogTexture:Display: Building textures: T_Fire_SubUV (AutoDXT)
+[2015.06.04-12.20.28:234][202]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2015.06.04-12.20.28:418][202]LogTexture:Display: Building textures: T_Water_N (BC5)
+[2015.06.04-12.20.29:783][202]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2015.06.04-12.20.29:802][202]LogMaterial: Missing cached shader map for material M_Radial_Gradient, compiling. 
+[2015.06.04-12.20.29:851][202]LogTexture:Display: Building textures: T_Smoke_Tiled_D (AutoDXT)
+[2015.06.04-12.20.30:361][202]LogTexture:Display: Building textures: T_Smoke_SubUV (AutoDXT)
+[2015.06.04-12.20.40:684][202]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2015.06.04-12.20.40:778][202]LogTexture:Display: Building textures: T_Spark_Core (AutoDXT)
+[2015.06.04-12.20.40:963][202]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2015.06.04-12.20.40:997][202]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.06.04-12.20.41:272][202]LogAudioDerivedData:Display: Building compressed audio format OGG wave Smoke01...
+[2015.06.04-12.20.41:395][202]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.06.04-12.20.41:489][202]LogAudioDerivedData:Display: Building compressed audio format OGG wave Fire_Sparks01...
+[2015.06.04-12.20.41:708][202]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.06.04-12.20.41:876][202]LogAudioDerivedData:Display: Building compressed audio format OGG wave Steam01...
+[2015.06.04-12.20.42:138][202]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.06.04-12.20.42:520][202]LogTexture:Display: Building textures: T_Lamp_M (AutoDXT)
+[2015.06.04-12.20.48:047][202]LogTexture:Display: Building textures: T_Lamp_N (BC5)
+[2015.06.04-12.20.49:233][202]LogMaterial: Missing cached shader map for material M_Lamp, compiling. 
+[2015.06.04-12.20.49:256][202]LogStaticMesh: Building static mesh SM_Lamp_Ceiling...
+[2015.06.04-12.20.49:342][2
