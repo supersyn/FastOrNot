@@ -1,0 +1,784 @@
+﻿Log file open, 06/08/15 09:28:11
+LogInit:Display: Running engine for game: FastOrNot
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: F:/Programs/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.08-07.28.11:259][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.06.08-07.28.11:317][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.08-07.28.11:481][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.08-07.28.11:705][  0]LogInit: Object subsystem initialized
+[2015.06.08-07.28.11:796][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.08-07.28.11:796][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/workspace/unrealProjects/FastOrNot/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.08-07.28.11:796][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.08-07.28.11:796][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/workspace/unrealProjects/FastOrNot/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.08-07.28.11:796][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.08-07.28.11:796][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/workspace/unrealProjects/FastOrNot/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.08-07.28.11:854][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.08-07.28.11:854][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.08-07.28.11:921][  0]LogInit: Computer: ARTRU
+[2015.06.08-07.28.11:921][  0]LogInit: User: Artur
+[2015.06.08-07.28.11:921][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.08-07.28.11:921][  0]LogInit: High frequency timer resolution =3.897225 MHz
+[2015.06.08-07.28.11:921][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=131072.0GB
+[2015.06.08-07.28.11:921][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-07.28.11:921][  0]LogMemory: Process Physical Memory: 45.68 MB used, 45.68 MB peak
+[2015.06.08-07.28.11:921][  0]LogMemory: Process Virtual Memory: 22.63 MB used, 22.63 MB peak
+[2015.06.08-07.28.11:921][  0]LogMemory: Physical Memory: 3723.94 MB used, 16334.79 MB total
+[2015.06.08-07.28.11:921][  0]LogMemory: Virtual Memory: 289.09 MB used, 134217728.00 MB total
+[2015.06.08-07.28.11:984][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2015.06.08-07.28.11:984][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.06.08-07.28.11:985][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.08-07.28.11:985][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.06.08-07.28.11:985][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.08-07.28.11:991][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.06.08-07.28.12:004][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.08-07.28.13:557][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.08-07.28.13:716][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (F:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (F:/Programs/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.06.08-07.28.13:716][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (F:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (F:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.06.08-07.28.13:831][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.08-07.28.18:205][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.08-07.28.19:184][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.08-07.28.19:284][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.08-07.28.19:390][  0]LogDerivedDataCache: Loaded boot cache 0.11s 39MB C:/Users/Artur/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.08-07.28.19:390][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Artur/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.08-07.28.19:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../workspace/unrealProjects/FastOrNot/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.08-07.28.19:390][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.08-07.28.19:570][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.08-07.28.19:582][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Artur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.08-07.28.28:195][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.08-07.28.28:195][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.08-07.28.31:304][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.08-07.28.31:656][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.08-07.28.38:468][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.08-07.28.39:254][  0]SourceControl: Info Source control is disabled
+[2015.06.08-07.28.39:272][  0]SourceControl: Info Source control is disabled
+[2015.06.08-07.28.39:272][  0]SourceControl: Info Source control is disabled
+[2015.06.08-07.28.39:278][  0]SourceControl: Info Source control is disabled
+[2015.06.08-07.28.40:051][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.08-07.28.40:051][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.06.08-07.28.40:653][  0]LogEngine: Initializing Engine...
+[2015.06.08-07.28.43:098][  0]LogInit: XAudio2 using 'T22C300-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.08-07.28.43:121][  0]LogInit: FAudioDevice initialized.
+[2015.06.08-07.28.43:639][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.08-07.28.43:719][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Artur/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.08-07.28.43:723][  0]LogInit: Texture streaming: Enabled
+[2015.06.08-07.28.44:059][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.08-07.28.44:060][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.08-07.28.44:060][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.08-07.28.44:060][  0]LogAnalytics: SetUserId e150438f46d4abc57021b1b430144fcb|2b49c56e734a4ac696504fc95616e715|9a312696-2d12-461c-a33c-f615d64e4dd7
+[2015.06.08-07.28.44:084][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.08-07.28.44:195][  0]LogInit: Transaction tracking system initialized
+[2015.06.08-07.28.46:372][  0]BlueprintLog: New page: Editor Load
+[2015.06.08-07.28.46:527][  0]LogAssetRegistry: FAssetRegistry took 0.0121 seconds to start up
+[2015.06.08-07.28.46:527][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.08-07.28.51:536][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.08-07.28.51:863][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.08-07.28.55:218][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.08-07.28.55:274][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.08-07.28.55:535][  0]LogConsoleResponse:Display: 
+[2015.06.08-07.28.58:476][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.08-07.29.02:106][  0]SourceControl: Info Source control is disabled
+[2015.06.08-07.29.02:232][  0]Cmd: MAP LOAD FILE="../../../../../../workspace/unrealProjects/FastOrNot/Content/FastOrNotContent/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.08-07.29.02:345][  0]LightingResults: New page: Lighting Build
+[2015.06.08-07.29.03:115][  0]MapCheck: New page: Map Check
+[2015.06.08-07.29.03:115][  0]LightingResults: New page: Lighting Build
+[2015.06.08-07.29.03:980][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A782DA520
+[2015.06.08-07.29.07:163][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Button_Hover...
+[2015.06.08-07.29.08:178][  0]LogTexture:Display: Building textures: Run (BGRA8)
+[2015.06.08-07.29.08:232][  0]LogTexture:Display: Building textures: Walk (BGRA8)
+[2015.06.08-07.29.08:236][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Starter_Music01...
+[2015.06.08-07.29.09:911][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.08-07.29.10:312][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.08-07.29.10:525][  0]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.08-07.29.10:676][  0]Cmd: MAP CHECKDEP
+[2015.06.08-07.29.10:702][  0]MapCheck: New page: MainMenu - Jun 8, 2015, 11:29:10 AM
+[2015.06.08-07.29.10:873][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 196.589ms to complete.
+[2015.06.08-07.29.10:893][  0]LogFileHelpers: Loading map 'MainMenu' took 8.715
+[2015.06.08-07.29.14:613][  0]LogCollectionManager: Loaded 0 collections in 0.000903 seconds
+[2015.06.08-07.29.14:644][  0]LogContentBrowser: Native class hierarchy populated in 0.0310 seconds. Added 1696 classes and 261 folders.
+[2015.06.08-07.29.14:945][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2015.06.08-07.29.15:544][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.08-07.29.15:642][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.08-07.29.16:009][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.08-07.29.16:101][  0]LogLoad: Full Startup: 71.78 seconds (BP compile: 1.25 seconds)
+[2015.06.08-07.29.18:274][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.06.08-07.29.19:042][  5]LogAssetRegistry: Asset discovery search completed in 32.5271 seconds
+[2015.06.08-07.29.25:668][693]LogEditorViewport: Clicking Background
+[2015.06.08-07.29.29:193][ 98]LogEditorViewport: Clicking Background
+[2015.06.08-07.29.37:717][104]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.08-07.29.37:717][104]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.06.08-07.29.38:426][104]LogPlayLevel: PIE:  Blueprint regeneration took 709 ms (1 blueprints)
+[2015.06.08-07.29.38:454][104]PIE: New page: PIE session: MainMenu (Jun 8, 2015, 11:29:38 AM)
+[2015.06.08-07.29.38:482][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027111s)
+[2015.06.08-07.29.38:483][104]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2015.06.08-07.29.38:502][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.047528s)
+[2015.06.08-07.29.38:711][104]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.08-07.29.38:921][104]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.08-07.29.38:923][104]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.08-07.29.38:923][104]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.08-09.29.38
+[2015.06.08-07.29.38:944][104]LogWorld: Bringing up level for play took: 0.022245
+[2015.06.08-07.29.39:163][104]PIE: Info Play in editor start time for /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu 0.647
+[2015.06.08-07.29.39:303][104]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.08-07.30.01:779][749]LogPackageName: SearchForPackageOnDisk took   0.038s to resolve BeFastest_Level_1.umap
+[2015.06.08-07.30.01:845][749]LogPackageName: SearchForPackageOnDisk took   0.038s to resolve BeFastest_Level_1.umap
+[2015.06.08-07.30.01:845][749]LogNet: Browse: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-07.30.01:860][749]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-07.30.01:973][749]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A71240860
+[2015.06.08-07.30.01:973][749]Cmd: MEM
+[2015.06.08-07.30.02:093][749]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-07.30.02:093][749]LogMemory: Process Physical Memory: 419.32 MB used, 432.48 MB peak
+[2015.06.08-07.30.02:093][749]LogMemory: Process Virtual Memory: 323.41 MB used, 364.87 MB peak
+[2015.06.08-07.30.02:093][749]LogMemory: Physical Memory: 4028.81 MB used, 16334.79 MB total
+[2015.06.08-07.30.02:093][749]LogMemory: Virtual Memory: 878.58 MB used, 134217728.00 MB total
+[2015.06.08-07.30.02:093][749]LogMemory: 
+[2015.06.08-07.30.02:093][749]Allocator Stats for TBB: (not implemented)
+[2015.06.08-07.30.03:014][749]LogTexture:Display: Building textures: Generic_Platformer_Tiles (BGRA8)
+[2015.06.08-07.30.03:111][749]LogAudioDerivedData:Display: Building compressed audio format OGG wave Explosion01...
+[2015.06.08-07.30.03:186][749]LogTexture:Display: Building textures: Attack_sword (AutoDXT)
+[2015.06.08-07.30.03:248][749]LogAudioDerivedData:Display: Building compressed audio format OGG wave Comedy_male_yelling_yee_ha...
+[2015.06.08-07.30.03:311][749]LogAudioDerivedData:Display: Building compressed audio format OGG wave LAZY_SALON_-_02_-_Rai...
+[2015.06.08-07.30.03:578][749]LogTexture:Display: Building textures: Jumpfall (BGRA8)
+[2015.06.08-07.30.03:579][749]LogTexture:Display: Building textures: Idle (BGRA8)
+[2015.06.08-07.30.04:227][749]LogWorld: Game class is 'BeFastestGameMode_C'
+[2015.06.08-07.30.04:228][749]LogAIModule: Creating AISystem for world BeFastest_Level_1
+[2015.06.08-07.30.04:272][749]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36.RenderComponent)
+[2015.06.08-07.30.04:321][749]LogWorld: Bringing World /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1 up for play (max tick rate 0) at 2015.06.08-09.30.04
+[2015.06.08-07.30.04:322][749]LogWorld: Bringing up level for play took: 0.093187
+[2015.06.08-07.30.19:224][497]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve MainMenu.umap
+[2015.06.08-07.30.19:259][497]LogPackageName: SearchForPackageOnDisk took   0.035s to resolve MainMenu.umap
+[2015.06.08-07.30.19:259][497]LogNet: Browse: /Game/FastOrNotContent/Maps/MainMenu
+[2015.06.08-07.30.19:259][497]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/MainMenu
+[2015.06.08-07.30.19:279][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A012FD440
+[2015.06.08-07.30.19:328][497]Cmd: MEM
+[2015.06.08-07.30.19:339][497]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-07.30.19:339][497]LogMemory: Process Physical Memory: 448.95 MB used, 466.04 MB peak
+[2015.06.08-07.30.19:339][497]LogMemory: Process Virtual Memory: 353.39 MB used, 369.73 MB peak
+[2015.06.08-07.30.19:339][497]LogMemory: Physical Memory: 4051.55 MB used, 16334.79 MB total
+[2015.06.08-07.30.19:339][497]LogMemory: Virtual Memory: 908.71 MB used, 134217728.00 MB total
+[2015.06.08-07.30.19:339][497]LogMemory: 
+[2015.06.08-07.30.19:339][497]Allocator Stats for TBB: (not implemented)
+[2015.06.08-07.30.19:343][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003848s)
+[2015.06.08-07.30.19:343][497]LogPlayLevel: PIE: World Init took: (0.000338s)
+[2015.06.08-07.30.19:343][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004292s)
+[2015.06.08-07.30.19:343][497]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.08-07.30.19:345][497]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.08-07.30.19:346][497]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.08-07.30.19:346][497]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.08-09.30.19
+[2015.06.08-07.30.19:347][497]LogWorld: Bringing up level for play took: 0.001153
+[2015.06.08-07.30.19:350][497]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.08-07.30.22:846][912]LogPackageName: SearchForPackageOnDisk took   0.038s to resolve Platformer_Level_1.umap
+[2015.06.08-07.30.22:882][912]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve Platformer_Level_1.umap
+[2015.06.08-07.30.22:882][912]LogNet: Browse: /Game/FastOrNotContent/Maps/Platformer/Platformer_Level_1
+[2015.06.08-07.30.22:883][912]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/Platformer/Platformer_Level_1
+[2015.06.08-07.30.22:892][912]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A71486D40
+[2015.06.08-07.30.22:895][912]Cmd: MEM
+[2015.06.08-07.30.22:905][912]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-07.30.22:905][912]LogMemory: Process Physical Memory: 449.00 MB used, 466.04 MB peak
+[2015.06.08-07.30.22:905][912]LogMemory: Process Virtual Memory: 352.62 MB used, 369.73 MB peak
+[2015.06.08-07.30.22:905][912]LogMemory: Physical Memory: 4051.56 MB used, 16334.79 MB total
+[2015.06.08-07.30.22:905][912]LogMemory: Virtual Memory: 908.71 MB used, 134217728.00 MB total
+[2015.06.08-07.30.22:905][912]LogMemory: 
+[2015.06.08-07.30.22:905][912]Allocator Stats for TBB: (not implemented)
+[2015.06.08-07.30.22:969][912]LogWorld: Game class is 'PlatformerGameMode_C'
+[2015.06.08-07.30.22:971][912]LogAIModule: Creating AISystem for world Platformer_Level_1
+[2015.06.08-07.30.22:971][912]LogWorld: Bringing World /Game/FastOrNotContent/Maps/Platformer/UEDPIE_0_Platformer_Level_1.Platformer_Level_1 up for play (max tick rate 0) at 2015.06.08-09.30.22
+[2015.06.08-07.30.22:972][912]LogWorld: Bringing up level for play took: 0.000549
+[2015.06.08-07.30.22:972][912]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.06.08-07.30.28:429][539]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A6F77A520
+[2015.06.08-07.30.31:318][876]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.08-07.30.31:318][876]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.06.08-07.30.31:355][876]LogPlayLevel: PIE:  Blueprint regeneration took 36 ms (1 blueprints)
+[2015.06.08-07.30.31:355][876]PIE: New page: PIE session: MainMenu (Jun 8, 2015, 11:30:31 AM)
+[2015.06.08-07.30.31:361][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003842s)
+[2015.06.08-07.30.31:361][876]LogPlayLevel: PIE: World Init took: (0.000531s)
+[2015.06.08-07.30.31:361][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004506s)
+[2015.06.08-07.30.31:392][876]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.08-07.30.31:394][876]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.08-07.30.31:395][876]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.08-07.30.31:395][876]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.08-09.30.31
+[2015.06.08-07.30.31:396][876]LogWorld: Bringing up level for play took: 0.001169
+[2015.06.08-07.30.31:397][876]PIE: Info Play in editor start time for /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu 0.881
+[2015.06.08-07.30.31:399][876]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.08-07.30.37:820][642]LogPackageName: SearchForPackageOnDisk took   0.038s to resolve BeFastest_Level_1.umap
+[2015.06.08-07.30.37:857][642]LogPackageName: SearchForPackageOnDisk took   0.037s to resolve BeFastest_Level_1.umap
+[2015.06.08-07.30.37:857][642]LogNet: Browse: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-07.30.37:857][642]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-07.30.37:868][642]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A714871A0
+[2015.06.08-07.30.37:868][642]Cmd: MEM
+[2015.06.08-07.30.37:878][642]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-07.30.37:878][642]LogMemory: Process Physical Memory: 450.39 MB used, 466.04 MB peak
+[2015.06.08-07.30.37:878][642]LogMemory: Process Virtual Memory: 353.83 MB used, 369.73 MB peak
+[2015.06.08-07.30.37:878][642]LogMemory: Physical Memory: 4052.43 MB used, 16334.79 MB total
+[2015.06.08-07.30.37:878][642]LogMemory: Virtual Memory: 903.89 MB used, 134217728.00 MB total
+[2015.06.08-07.30.37:878][642]LogMemory: 
+[2015.06.08-07.30.37:878][642]Allocator Stats for TBB: (not implemented)
+[2015.06.08-07.30.38:017][642]LogWorld: Game class is 'BeFastestGameMode_C'
+[2015.06.08-07.30.38:019][642]LogAIModule: Creating AISystem for world BeFastest_Level_1
+[2015.06.08-07.30.38:020][642]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36.RenderComponent)
+[2015.06.08-07.30.38:021][642]LogWorld: Bringing World /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1 up for play (max tick rate 0) at 2015.06.08-09.30.38
+[2015.06.08-07.30.38:021][642]LogWorld: Bringing up level for play took: 0.002225
+[2015.06.08-07.30.54:289][573]LogPackageName: SearchForPackageOnDisk took   0.037s to resolve BeFastest_Level_1.umap
+[2015.06.08-07.30.54:327][573]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve BeFastest_Level_1.umap
+[2015.06.08-07.30.54:327][573]LogNet: Browse: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-07.30.54:327][573]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-07.30.54:343][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A054B4680
+[2015.06.08-07.30.54:343][573]Cmd: MEM
+[2015.06.08-07.30.54:352][573]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-07.30.54:352][573]LogMemory: Process Physical Memory: 450.57 MB used, 466.04 MB peak
+[2015.06.08-07.30.54:352][573]LogMemory: Process Virtual Memory: 353.98 MB used, 369.73 MB peak
+[2015.06.08-07.30.54:352][573]LogMemory: Physical Memory: 4051.24 MB used, 16334.79 MB total
+[2015.06.08-07.30.54:352][573]LogMemory: Virtual Memory: 908.71 MB used, 134217728.00 MB total
+[2015.06.08-07.30.54:352][573]LogMemory: 
+[2015.06.08-07.30.54:352][573]Allocator Stats for TBB: (not implemented)
+[2015.06.08-07.30.54:470][573]LogWorld: Game class is 'BeFastestGameMode_C'
+[2015.06.08-07.30.54:472][573]LogAIModule: Creating AISystem for world BeFastest_Level_1
+[2015.06.08-07.30.54:473][573]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36.RenderComponent)
+[2015.06.08-07.30.54:475][573]LogWorld: Bringing World /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1 up for play (max tick rate 0) at 2015.06.08-09.30.54
+[2015.06.08-07.30.54:475][573]LogWorld: Bringing up level for play took: 0.003272
+[2015.06.08-07.30.59:405][155]LogPackageName: SearchForPackageOnDisk took   0.037s to resolve BeFastest_Level_1.umap
+[2015.06.08-07.30.59:442][155]LogPackageName: SearchForPackageOnDisk took   0.037s to resolve BeFastest_Level_1.umap
+[2015.06.08-07.30.59:442][155]LogNet: Browse: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-07.30.59:442][155]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-07.30.59:458][155]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A726F4180
+[2015.06.08-07.30.59:459][155]Cmd: MEM
+[2015.06.08-07.30.59:467][155]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-07.30.59:467][155]LogMemory: Process Physical Memory: 450.63 MB used, 466.04 MB peak
+[2015.06.08-07.30.59:467][155]LogMemory: Process Virtual Memory: 353.98 MB used, 369.73 MB peak
+[2015.06.08-07.30.59:467][155]LogMemory: Physical Memory: 4051.23 MB used, 16334.79 MB total
+[2015.06.08-07.30.59:467][155]LogMemory: Virtual Memory: 908.71 MB used, 134217728.00 MB total
+[2015.06.08-07.30.59:467][155]LogMemory: 
+[2015.06.08-07.30.59:467][155]Allocator Stats for TBB: (not implemented)
+[2015.06.08-07.30.59:584][155]LogWorld: Game class is 'BeFastestGameMode_C'
+[2015.06.08-07.30.59:585][155]LogAIModule: Creating AISystem for world BeFastest_Level_1
+[2015.06.08-07.30.59:587][155]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36.RenderComponent)
+[2015.06.08-07.30.59:589][155]LogWorld: Bringing World /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1 up for play (max tick rate 0) at 2015.06.08-09.30.59
+[2015.06.08-07.30.59:589][155]LogWorld: Bringing up level for play took: 0.003340
+[2015.06.08-07.31.03:256][589]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve MainMenu.umap
+[2015.06.08-07.31.03:292][589]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve MainMenu.umap
+[2015.06.08-07.31.03:292][589]LogNet: Browse: /Game/FastOrNotContent/Maps/MainMenu
+[2015.06.08-07.31.03:292][589]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/MainMenu
+[2015.06.08-07.31.03:306][589]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A054F0360
+[2015.06.08-07.31.03:306][589]Cmd: MEM
+[2015.06.08-07.31.03:316][589]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-07.31.03:316][589]LogMemory: Process Physical Memory: 450.63 MB used, 466.04 MB peak
+[2015.06.08-07.31.03:316][589]LogMemory: Process Virtual Memory: 353.98 MB used, 369.73 MB peak
+[2015.06.08-07.31.03:316][589]LogMemory: Physical Memory: 4051.08 MB used, 16334.79 MB total
+[2015.06.08-07.31.03:316][589]LogMemory: Virtual Memory: 908.71 MB used, 134217728.00 MB total
+[2015.06.08-07.31.03:316][589]LogMemory: 
+[2015.06.08-07.31.03:316][589]Allocator Stats for TBB: (not implemented)
+[2015.06.08-07.31.03:320][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003752s)
+[2015.06.08-07.31.03:320][589]LogPlayLevel: PIE: World Init took: (0.000349s)
+[2015.06.08-07.31.03:320][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004206s)
+[2015.06.08-07.31.03:320][589]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.08-07.31.03:321][589]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.08-07.31.03:323][589]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.08-07.31.03:323][589]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.08-09.31.03
+[2015.06.08-07.31.03:323][589]LogWorld: Bringing up level for play took: 0.001005
+[2015.06.08-07.31.03:326][589]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.08-07.31.04:871][770]LogPackageName: SearchForPackageOnDisk took   0.037s to resolve BeFastest_Level_1.umap
+[2015.06.08-07.31.04:907][770]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve BeFastest_Level_1.umap
+[2015.06.08-07.31.04:908][770]LogNet: Browse: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-07.31.04:908][770]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-07.31.04:917][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A054B5F80
+[2015.06.08-07.31.04:919][770]Cmd: MEM
+[2015.06.08-07.31.04:928][770]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-07.31.04:928][770]LogMemory: Process Physical Memory: 450.64 MB used, 466.04 MB peak
+[2015.06.08-07.31.04:928][770]LogMemory: Process Virtual Memory: 353.99 MB used, 369.73 MB peak
+[2015.06.08-07.31.04:928][770]LogMemory: Physical Memory: 4051.07 MB used, 16334.79 MB total
+[2015.06.08-07.31.04:928][770]LogMemory: Virtual Memory: 908.71 MB used, 134217728.00 MB total
+[2015.06.08-07.31.04:928][770]LogMemory: 
+[2015.06.08-07.31.04:928][770]Allocator Stats for TBB: (not implemented)
+[2015.06.08-07.31.05:043][770]LogWorld: Game class is 'BeFastestGameMode_C'
+[2015.06.08-07.31.05:045][770]LogAIModule: Creating AISystem for world BeFastest_Level_1
+[2015.06.08-07.31.05:047][770]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36.RenderComponent)
+[2015.06.08-07.31.05:048][770]LogWorld: Bringing World /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1 up for play (max tick rate 0) at 2015.06.08-09.31.05
+[2015.06.08-07.31.05:049][770]LogWorld: Bringing up level for play took: 0.003268
+[2015.06.08-07.31.16:054][ 85]LogPackageName: SearchForPackageOnDisk took   0.037s to resolve BeFastest_Level_1.umap
+[2015.06.08-07.31.16:091][ 85]LogPackageName: SearchForPackageOnDisk took   0.037s to resolve BeFastest_Level_1.umap
+[2015.06.08-07.31.16:091][ 85]LogNet: Browse: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-07.31.16:091][ 85]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-07.31.16:104][ 85]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A6F77BF60
+[2015.06.08-07.31.16:104][ 85]Cmd: MEM
+[2015.06.08-07.31.16:113][ 85]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-07.31.16:113][ 85]LogMemory: Process Physical Memory: 451.98 MB used, 466.94 MB peak
+[2015.06.08-07.31.16:113][ 85]LogMemory: Process Virtual Memory: 355.21 MB used, 371.52 MB peak
+[2015.06.08-07.31.16:113][ 85]LogMemory: Physical Memory: 4048.23 MB used, 16334.79 MB total
+[2015.06.08-07.31.16:113][ 85]LogMemory: Virtual Memory: 905.14 MB used, 134217728.00 MB total
+[2015.06.08-07.31.16:113][ 85]LogMemory: 
+[2015.06.08-07.31.16:113][ 85]Allocator Stats for TBB: (not implemented)
+[2015.06.08-07.31.16:229][ 85]LogWorld: Game class is 'BeFastestGameMode_C'
+[2015.06.08-07.31.16:231][ 85]LogAIModule: Creating AISystem for world BeFastest_Level_1
+[2015.06.08-07.31.16:233][ 85]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36.RenderComponent)
+[2015.06.08-07.31.16:234][ 85]LogWorld: Bringing World /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1 up for play (max tick rate 0) at 2015.06.08-09.31.16
+[2015.06.08-07.31.16:235][ 85]LogWorld: Bringing up level for play took: 0.002886
+[2015.06.08-07.31.29:358][655]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve MainMenu.umap
+[2015.06.08-07.31.29:395][655]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve MainMenu.umap
+[2015.06.08-07.31.29:395][655]LogNet: Browse: /Game/FastOrNotContent/Maps/MainMenu
+[2015.06.08-07.31.29:395][655]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/MainMenu
+[2015.06.08-07.31.29:409][655]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A711FE7A0
+[2015.06.08-07.31.29:409][655]Cmd: MEM
+[2015.06.08-07.31.29:419][655]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-07.31.29:419][655]LogMemory: Process Physical Memory: 453.63 MB used, 466.94 MB peak
+[2015.06.08-07.31.29:419][655]LogMemory: Process Virtual Memory: 359.24 MB used, 371.52 MB peak
+[2015.06.08-07.31.29:419][655]LogMemory: Physical Memory: 4040.98 MB used, 16334.79 MB total
+[2015.06.08-07.31.29:419][655]LogMemory: Virtual Memory: 904.39 MB used, 134217728.00 MB total
+[2015.06.08-07.31.29:419][655]LogMemory: 
+[2015.06.08-07.31.29:419][655]Allocator Stats for TBB: (not implemented)
+[2015.06.08-07.31.29:423][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004084s)
+[2015.06.08-07.31.29:423][655]LogPlayLevel: PIE: World Init took: (0.000358s)
+[2015.06.08-07.31.29:423][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004548s)
+[2015.06.08-07.31.29:423][655]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.08-07.31.29:425][655]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.08-07.31.29:426][655]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.08-07.31.29:426][655]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.08-09.31.29
+[2015.06.08-07.31.29:426][655]LogWorld: Bringing up level for play took: 0.001026
+[2015.06.08-07.31.29:429][655]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.08-07.31.56:296][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A054F2160
+[2015.06.08-07.32.00:845][406]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent'
+[2015.06.08-07.32.02:193][565]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Audio'
+[2015.06.08-07.32.04:724][852]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Blueprints'
+[2015.06.08-07.32.12:220][746]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Blueprints/LevelBlock'
+[2015.06.08-07.32.16:042][203]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Blueprints/BeFastest'
+[2015.06.08-07.32.45:682][759]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Maps'
+[2015.06.08-07.32.48:817][135]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Maps/BeFastest'
+[2015.06.08-07.32.50:801][373]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Maps/Platformer'
+[2015.06.08-07.32.52:410][516]Cmd: MAP LOAD FILE="../../../../../../workspace/unrealProjects/FastOrNot/Content/FastOrNotContent/Maps/Platformer/Platformer_Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.08-07.32.52:410][516]LightingResults: New page: Lighting Build
+[2015.06.08-07.32.52:450][516]LoadErrors: New page: Loading map: Platformer_Level_1.umap
+[2015.06.08-07.32.52:451][516]MapCheck: New page: Map Check
+[2015.06.08-07.32.52:451][516]LightingResults: New page: Lighting Build
+[2015.06.08-07.32.52:457][516]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A7139DA80
+[2015.06.08-07.32.52:505][516]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.08-07.32.52:506][516]LogAIModule: Creating AISystem for world Platformer_Level_1
+[2015.06.08-07.32.52:545][516]Cmd: MAP CHECKDEP
+[2015.06.08-07.32.52:545][516]MapCheck: New page: Platformer_Level_1 - Jun 8, 2015, 11:32:52 AM
+[2015.06.08-07.32.52:613][516]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.621ms to complete.
+[2015.06.08-07.32.52:614][516]LogFileHelpers: Loading map 'Platformer_Level_1' took 0.242
+[2015.06.08-07.32.54:748][772]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Maps/BeFastest'
+[2015.06.08-07.32.55:750][877]Cmd: MAP LOAD FILE="../../../../../../workspace/unrealProjects/FastOrNot/Content/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.08-07.32.55:750][877]LightingResults: New page: Lighting Build
+[2015.06.08-07.32.55:766][877]LoadErrors: New page: Loading map: BeFastest_Level_1.umap
+[2015.06.08-07.32.55:767][877]MapCheck: New page: Map Check
+[2015.06.08-07.32.55:767][877]LightingResults: New page: Lighting Build
+[2015.06.08-07.32.55:776][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A711FFF60
+[2015.06.08-07.32.55:776][877]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36.RenderComponent)
+[2015.06.08-07.32.55:778][877]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.08-07.32.55:779][877]LogAIModule: Creating AISystem for world BeFastest_Level_1
+[2015.06.08-07.32.55:788][877]Cmd: MAP CHECKDEP
+[2015.06.08-07.32.55:788][877]MapCheck: New page: BeFastest_Level_1 - Jun 8, 2015, 11:32:55 AM
+[2015.06.08-07.32.55:845][877]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.978ms to complete.
+[2015.06.08-07.32.55:845][877]LogFileHelpers: Loading map 'BeFastest_Level_1' took 0.097
+[2015.06.08-07.32.57:242][ 30]Cmd: MAP LOAD FILE="../../../../../../workspace/unrealProjects/FastOrNot/Content/FastOrNotContent/Maps/BeFastest/BeFastest_Level_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.08-07.32.57:242][ 30]LightingResults: New page: Lighting Build
+[2015.06.08-07.32.57:258][ 30]LoadErrors: New page: Loading map: BeFastest_Level_2.umap
+[2015.06.08-07.32.57:258][ 30]MapCheck: New page: Map Check
+[2015.06.08-07.32.57:258][ 30]LightingResults: New page: Lighting Build
+[2015.06.08-07.32.57:266][ 30]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A77B90B80
+[2015.06.08-07.32.57:269][ 30]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_2.BeFastest_Level_2:PersistentLevel.Background_36.RenderComponent)
+[2015.06.08-07.32.57:273][ 30]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.08-07.32.57:273][ 30]LogAIModule: Creating AISystem for world BeFastest_Level_2
+[2015.06.08-07.32.57:283][ 30]Cmd: MAP CHECKDEP
+[2015.06.08-07.32.57:283][ 30]MapCheck: New page: BeFastest_Level_2 - Jun 8, 2015, 11:32:57 AM
+[2015.06.08-07.32.57:342][ 30]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.189ms to complete.
+[2015.06.08-07.32.57:342][ 30]LogFileHelpers: Loading map 'BeFastest_Level_2' took 0.100
+[2015.06.08-07.33.15:992][267]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.06.08-07.33.21:677][904]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.08-07.33.22:316][963]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Flipbooks'
+[2015.06.08-07.34.22:831][194]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Sprites'
+[2015.06.08-07.34.25:431][505]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Sprites/Attack'
+[2015.06.08-07.34.32:412][336]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Sprites/Climb'
+[2015.06.08-07.34.33:229][430]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Sprites/Death'
+[2015.06.08-07.34.35:915][750]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Sprites/Hurt'
+[2015.06.08-07.34.36:861][862]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Sprites/Climb'
+[2015.06.08-07.34.45:633][913]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.08-07.34.53:092][798]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Textures/Character/Death'
+[2015.06.08-07.34.54:367][949]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Textures/Character/Hurt'
+[2015.06.08-07.34.56:817][243]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Textures/Character'
+[2015.06.08-07.35.07:174][480]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.08-07.35.09:641][766]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Audio'
+[2015.06.08-07.35.12:543][ 20]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.08-07.35.16:504][479]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Flipbooks'
+[2015.06.08-07.35.19:757][867]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Maps'
+[2015.06.08-07.35.37:452][985]LogEditorViewport: Clicking on Actor (LMB): FinishTrigger_Blueprint_C (FinishTrigger_Blueprint)
+[2015.06.08-07.35.41:815][449]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.08-07.35.41:815][449]LogPlayLevel: [PIE] Compiling BeFastest_Level_2 before PIE...
+[2015.06.08-07.35.41:852][449]LogPlayLevel: PIE:  Blueprint regeneration took 36 ms (1 blueprints)
+[2015.06.08-07.35.41:852][449]PIE: New page: PIE session: BeFastest_Level_2 (Jun 8, 2015, 11:35:41 AM)
+[2015.06.08-07.35.41:856][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003546s)
+[2015.06.08-07.35.41:856][449]LogPlayLevel: PIE: World Init took: (0.000368s)
+[2015.06.08-07.35.41:856][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_2.BeFastest_Level_2 to /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_2.BeFastest_Level_2 (0.004024s)
+[2015.06.08-07.35.41:892][449]LogWorld: Game class is 'BeFastestGameMode_C'
+[2015.06.08-07.35.41:894][449]LogAIModule: Creating AISystem for world BeFastest_Level_2
+[2015.06.08-07.35.41:895][449]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_2.BeFastest_Level_2:PersistentLevel.Background_36.RenderComponent)
+[2015.06.08-07.35.41:895][449]LogWorld: Bringing World /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_2.BeFastest_Level_2 up for play (max tick rate 0) at 2015.06.08-09.35.41
+[2015.06.08-07.35.41:896][449]LogWorld: Bringing up level for play took: 0.001696
+[2015.06.08-07.35.41:898][449]PIE: Info Play in editor start time for /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_2 -0.618
+[2015.06.08-07.35.55:655][ 95]LogPackageName: SearchForPackageOnDisk took   0.037s to resolve MainMenu.umap
+[2015.06.08-07.35.55:691][ 95]LogPackageName: SearchForPackageOnDisk took   0.035s to resolve MainMenu.umap
+[2015.06.08-07.35.55:691][ 95]LogNet: Browse: /Game/FastOrNotContent/Maps/MainMenu
+[2015.06.08-07.35.55:691][ 95]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/MainMenu
+[2015.06.08-07.35.55:704][ 95]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A711C3D80
+[2015.06.08-07.35.55:704][ 95]Cmd: MEM
+[2015.06.08-07.35.55:713][ 95]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-07.35.55:713][ 95]LogMemory: Process Physical Memory: 481.39 MB used, 489.32 MB peak
+[2015.06.08-07.35.55:713][ 95]LogMemory: Process Virtual Memory: 380.39 MB used, 388.43 MB peak
+[2015.06.08-07.35.55:713][ 95]LogMemory: Physical Memory: 4053.02 MB used, 16334.79 MB total
+[2015.06.08-07.35.55:713][ 95]LogMemory: Virtual Memory: 922.82 MB used, 134217728.00 MB total
+[2015.06.08-07.35.55:713][ 95]LogMemory: 
+[2015.06.08-07.35.55:713][ 95]Allocator Stats for TBB: (not implemented)
+[2015.06.08-07.35.55:813][ 95]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.08-07.35.55:815][ 95]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.08-07.35.55:816][ 95]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.08-07.35.55:816][ 95]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.08-09.35.55
+[2015.06.08-07.35.55:816][ 95]LogWorld: Bringing up level for play took: 0.001458
+[2015.06.08-07.35.55:821][ 95]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.08-07.36.02:631][903]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A73DB9F80
+[2015.06.08-07.36.13:252][159]Cmd: MAP LOAD FILE="../../../../../../workspace/unrealProjects/FastOrNot/Content/FastOrNotContent/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.08-07.36.13:252][159]LightingResults: New page: Lighting Build
+[2015.06.08-07.36.13:278][159]LoadErrors: New page: Loading map: MainMenu.umap
+[2015.06.08-07.36.13:278][159]MapCheck: New page: Map Check
+[2015.06.08-07.36.13:278][159]LightingResults: New page: Lighting Build
+[2015.06.08-07.36.13:285][159]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A714868E0
+[2015.06.08-07.36.13:289][159]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.08-07.36.13:290][159]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.08-07.36.13:290][159]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.08-07.36.13:302][159]Cmd: MAP CHECKDEP
+[2015.06.08-07.36.13:303][159]MapCheck: New page: MainMenu - Jun 8, 2015, 11:36:13 AM
+[2015.06.08-07.36.13:360][159]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.95ms to complete.
+[2015.06.08-07.36.13:360][159]LogFileHelpers: Loading map 'MainMenu' took 0.110
+[2015.06.08-07.36.15:063][363]LogEditorViewport: Clicking Background
+[2015.06.08-07.36.16:662][547]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.08-07.36.16:662][547]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.06.08-07.36.16:698][547]LogPlayLevel: PIE:  Blueprint regeneration took 36 ms (1 blueprints)
+[2015.06.08-07.36.16:698][547]PIE: New page: PIE session: MainMenu (Jun 8, 2015, 11:36:16 AM)
+[2015.06.08-07.36.16:702][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003838s)
+[2015.06.08-07.36.16:702][547]LogPlayLevel: PIE: World Init took: (0.000352s)
+[2015.06.08-07.36.16:702][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004313s)
+[2015.06.08-07.36.16:737][547]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.08-07.36.16:739][547]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.08-07.36.16:740][547]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.08-07.36.16:740][547]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.08-09.36.16
+[2015.06.08-07.36.16:740][547]LogWorld: Bringing up level for play took: 0.001030
+[2015.06.08-07.36.16:742][547]PIE: Info Play in editor start time for /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu 0.226
+[2015.06.08-07.36.16:744][547]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.08-07.40.09:015][527]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A711C3BA0
+[2015.06.08-08.33.32:833][661]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Textures'
+[2015.06.08-08.33.34:779][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Textures/Character'
+[2015.06.08-08.33.36:821][135]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Textures/Character/Hurt'
+[2015.06.08-08.33.38:228][302]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Textures/Character/Death'
+[2015.06.08-08.33.50:222][698]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed'
+[2015.06.08-08.34.08:855][838]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0097 seconds. Added 1 classes and 2 folders.
+[2015.06.08-09.17.50:335][939]LogTexture:Display: Building textures: T_Wood_Pine_D (AutoDXT)
+[2015.06.08-09.17.53:369][939]LogEditorViewport: Clicking Background
+[2015.06.08-09.18.24:246][586]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.08-09.19.24:566][332]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.08-09.19.24:568][332]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.06.08-09.19.24:929][332]LogPlayLevel: PIE:  Blueprint regeneration took 362 ms (1 blueprints)
+[2015.06.08-09.19.24:930][332]PIE: New page: PIE session: MainMenu (Jun 8, 2015, 1:19:24 PM)
+[2015.06.08-09.19.24:951][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018819s)
+[2015.06.08-09.19.24:951][332]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2015.06.08-09.19.24:952][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.019984s)
+[2015.06.08-09.19.25:020][332]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.08-09.19.25:024][332]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.08-09.19.25:027][332]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.08-09.19.25:027][332]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.08-11.19.25
+[2015.06.08-09.19.25:028][332]LogWorld: Bringing up level for play took: 0.003260
+[2015.06.08-09.19.25:057][332]PIE: Info Play in editor start time for /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu 0.541
+[2015.06.08-09.19.25:059][332]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:58442).
+[2015.06.08-09.19.25:060][332]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.08-09.19.28:728][696]LogPackageName: SearchForPackageOnDisk took   0.086s to resolve BeFastest_Level_1.umap
+[2015.06.08-09.19.28:765][696]LogPackageName: SearchForPackageOnDisk took   0.037s to resolve BeFastest_Level_1.umap
+[2015.06.08-09.19.28:765][696]LogNet: Browse: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-09.19.28:765][696]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-09.19.28:783][696]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A0E4CEAC0
+[2015.06.08-09.19.28:783][696]Cmd: MEM
+[2015.06.08-09.19.28:797][696]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-09.19.28:797][696]LogMemory: Process Physical Memory: 604.36 MB used, 675.63 MB peak
+[2015.06.08-09.19.28:797][696]LogMemory: Process Virtual Memory: 503.02 MB used, 578.23 MB peak
+[2015.06.08-09.19.28:797][696]LogMemory: Physical Memory: 4606.23 MB used, 16334.79 MB total
+[2015.06.08-09.19.28:797][696]LogMemory: Virtual Memory: 1052.91 MB used, 134217728.00 MB total
+[2015.06.08-09.19.28:797][696]LogMemory: 
+[2015.06.08-09.19.28:797][696]Allocator Stats for TBB: (not implemented)
+[2015.06.08-09.19.28:939][696]LogWorld: Game class is 'BeFastestGameMode_C'
+[2015.06.08-09.19.28:940][696]LogAIModule: Creating AISystem for world BeFastest_Level_1
+[2015.06.08-09.19.28:941][696]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36.RenderComponent)
+[2015.06.08-09.19.28:942][696]LogWorld: Bringing World /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1 up for play (max tick rate 0) at 2015.06.08-11.19.28
+[2015.06.08-09.19.28:943][696]LogWorld: Bringing up level for play took: 0.002200
+[2015.06.08-09.19.42:353][108]LogPackageName: SearchForPackageOnDisk took   0.037s to resolve BeFastest_Level_1.umap
+[2015.06.08-09.19.42:391][108]LogPackageName: SearchForPackageOnDisk took   0.037s to resolve BeFastest_Level_1.umap
+[2015.06.08-09.19.42:391][108]LogNet: Browse: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-09.19.42:391][108]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.08-09.19.42:407][108]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A71240540
+[2015.06.08-09.19.42:411][108]Cmd: MEM
+[2015.06.08-09.19.42:426][108]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-09.19.42:426][108]LogMemory: Process Physical Memory: 610.21 MB used, 675.63 MB peak
+[2015.06.08-09.19.42:426][108]LogMemory: Process Virtual Memory: 510.51 MB used, 578.23 MB peak
+[2015.06.08-09.19.42:426][108]LogMemory: Physical Memory: 4612.38 MB used, 16334.79 MB total
+[2015.06.08-09.19.42:426][108]LogMemory: Virtual Memory: 1056.53 MB used, 134217728.00 MB total
+[2015.06.08-09.19.42:426][108]LogMemory: 
+[2015.06.08-09.19.42:426][108]Allocator Stats for TBB: (not implemented)
+[2015.06.08-09.19.42:547][108]LogWorld: Game class is 'BeFastestGameMode_C'
+[2015.06.08-09.19.42:549][108]LogAIModule: Creating AISystem for world BeFastest_Level_1
+[2015.06.08-09.19.42:550][108]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36.RenderComponent)
+[2015.06.08-09.19.42:552][108]LogWorld: Bringing World /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1 up for play (max tick rate 0) at 2015.06.08-11.19.42
+[2015.06.08-09.19.42:553][108]LogWorld: Bringing up level for play took: 0.003512
+[2015.06.08-09.19.53:345][243]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve MainMenu.umap
+[2015.06.08-09.19.53:382][243]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve MainMenu.umap
+[2015.06.08-09.19.53:382][243]LogNet: Browse: /Game/FastOrNotContent/Maps/MainMenu
+[2015.06.08-09.19.53:382][243]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/MainMenu
+[2015.06.08-09.19.53:401][243]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A0E4CD3A0
+[2015.06.08-09.19.53:401][243]Cmd: MEM
+[2015.06.08-09.19.53:415][243]LogMemory: Platform Memory Stats for Windows
+[2015.06.08-09.19.53:415][243]LogMemory: Process Physical Memory: 610.21 MB used, 675.63 MB peak
+[2015.06.08-09.19.53:415][243]LogMemory: Process Virtual Memory: 510.51 MB used, 578.23 MB peak
+[2015.06.08-09.19.53:415][243]LogMemory: Physical Memory: 4608.04 MB used, 16334.79 MB total
+[2015.06.08-09.19.53:415][243]LogMemory: Virtual Memory: 1056.53 MB used, 134217728.00 MB total
+[2015.06.08-09.19.53:415][243]LogMemory: 
+[2015.06.08-09.19.53:415][243]Allocator Stats for TBB: (not implemented)
+[2015.06.08-09.19.53:419][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003973s)
+[2015.06.08-09.19.53:419][243]LogPlayLevel: PIE: World Init took: (0.000350s)
+[2015.06.08-09.19.53:419][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004438s)
+[2015.06.08-09.19.53:419][243]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.08-09.19.53:421][243]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.08-09.19.53:422][243]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.08-09.19.53:422][243]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.08-11.19.53
+[2015.06.08-09.19.53:422][243]LogWorld: Bringing up level for play took: 0.001036
+[2015.06.08-09.19.53:425][243]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.08-09.19.55:117][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A6F43B060
+[2015.06.08-09.25.41:739][668]LogSavePackage: Save=330.439209ms
+[2015.06.08-09.25.41:739][668]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/FastOrNotCharacterFEBE62CF4176CAB52AFF098C0A1B26C2.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Content/FastOrNotContent/Blueprints/FastOrNotCharacter.uasset'
+[2015.06.08-09.28.50:387][ 57]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.08-09.29.07:316][999]LogEditorViewport: Clicking Background
+[2015.06.08-09.30.40:565][111]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.08-09.30.40:568][111]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.06.08-09.30.40:619][111]LogPlayLevel: PIE:  Blueprint regeneration took 54 ms (1 blueprints)
+[2015.06.08-09.30.40:619][111]PIE: New page: PIE session: MainMenu (Jun 8, 2015, 1:30:40 PM)
+[2015.06.08-09.30.40:624][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003736s)
+[2015.06.08-09.30.40:625][111]LogPlayLevel: PIE: World Init took: (0.000500s)
+[2015.06.08-09.30.40:625][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004374s)
+[2015.06.08-09.30.40:660][111]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.08-09.30.40:662][111]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.08-09.30.40:663][111]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.08-09.30.40:663][111]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.08-11.30.40
+[2015.06.08-09.30.40:663][111]LogWorld: Bringing up level for play took: 0.001446
+[2015.06.08-09.30.40:665][111]PIE: Info Play in editor start time for /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu 0.15
+[2015.06.08-09.30.40:667][111]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.08-09.30.47:377][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A1412F060
+[2015.06.08-09.30.48:361][ 19]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.06.08-09.30.48:931][ 86]LogEditorViewport: Clicking Background
+[2015.06.08-09.30.49:191][117]LogEditorViewport: Clicking Background
+[2015.06.08-09.30.49:455][149]LogEditorViewport: Clicking Background
+[2015.06.08-09.30.50:326][223]LogEditorViewport: Clicking Background
+[2015.06.08-09.31.38:876][212]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Blueprints'
+[2015.06.08-11.03.24:801][759]LogEditorViewport: Clicking Background
+[2015.06.08-12.44.41:686][338]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Maps'
+[2015.06.08-12.44.52:474][632]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Blueprints/Menus'
+[2015.06.08-12.44.54:473][845]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Blueprints/MainMenu'
+[2015.06.08-12.45.06:293][260]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Blueprints'
+[2015.06.08-12.45.09:197][570]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Blueprints/NewFolder'
+[2015.06.08-12.45.14:709][223]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Blueprints/HUD'
+[2015.06.08-12.45.30:027][995]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Blueprints/HUD'
+[2015.06.08-12.45.52:620][629]LogMetaData: Removing '/Game/FastOrNotContent/Blueprints/HUD/characterHUD.SKEL_characterHUD_C' ref from Metadata '/Game/FastOrNotContent/Blueprints/HUD/NewWidgetBlueprint.PackageMetaData'
+[2015.06.08-12.45.52:620][629]LogMetaData: Removing '/Game/FastOrNotContent/Blueprints/HUD/characterHUD.characterHUD_C' ref from Metadata '/Game/FastOrNotContent/Blueprints/HUD/NewWidgetBlueprint.PackageMetaData'
+[2015.06.08-12.45.52:620][629]LogMetaData: Removing '/Game/FastOrNotContent/Blueprints/HUD/characterHUD.characterHUD:EventGraph.K2Node_Event_272' ref from Metadata '/Game/FastOrNotContent/Blueprints/HUD/NewWidgetBlueprint.PackageMetaData'
+[2015.06.08-12.45.52:620][629]LogMetaData: Removing '/Game/FastOrNotContent/Blueprints/HUD/characterHUD.characterHUD:EventGraph.K2Node_Event_273' ref from Metadata '/Game/FastOrNotContent/Blueprints/HUD/NewWidgetBlueprint.PackageMetaData'
+[2015.06.08-12.45.52:716][629]LogSavePackage: Save=10.447947ms
+[2015.06.08-12.45.52:716][629]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/characterHUDB33CC8A5480F09799FA4CE87B183C8F7.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Content/FastOrNotContent/Blueprints/HUD/characterHUD.uasset'
+[2015.06.08-12.45.54:468][809]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FastOrNotContent/Maps/MainMenu' took 0.014
+[2015.06.08-12.45.54:560][809]LogSavePackage: Save=68.456398ms
+[2015.06.08-12.45.54:561][809]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/NewWidgetBlueprint_Auto14FC54FDA41806161CE294D98191E382F.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Saved/Autosaves/Game/FastOrNotContent/Blueprints/HUD/NewWidgetBlueprint_Auto1.uasset'
+[2015.06.08-12.45.54:564][809]LogFileHelpers: Auto-saving content packages took 0.096
+[2015.06.08-12.45.55:328][901]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Blueprints/LevelBlock'
+[2015.06.08-12.45.56:372][ 26]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Blueprints/MainMenu'
+[2015.06.08-12.46.02:407][683]LogRenderer:Warning: Reallocating scene render targets to support 1296x904 (Frame:151955).
+[2015.06.08-12.46.17:702][378]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Blueprints/HUD'
+[2015.06.08-12.54.21:399][291]LogEditorTransaction: Undo Rename Widget
+[2015.06.08-12.54.21:437][291]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	LevelEndMenu_C /Engine/Transient.World_2:LevelEndMenu_C_9
+	Function /Game/FastOrNotContent/Blueprints/Menus/LevelEndMenu.LevelEndMenu_C:ExecuteUbergraph_LevelEndMenu:0049
+[2015.06.08-12.54.21:437][291]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	FastOrNotCharacter_C /Engine/Transient.World_2:PersistentLevel.FastOrNotCharacter_C_8
+	Function /Game/FastOrNotContent/Blueprints/FastOrNotCharacter.FastOrNotCharacter_C:ExecuteUbergraph_FastOrNotCharacter:02F1
+[2015.06.08-12.54.21:739][301]LogEditorTransaction: Undo Move Widget
+[2015.06.08-12.54.21:797][301]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	LevelEndMenu_C /Engine/Transient.World_2:LevelEndMenu_C_10
+	Function /Game/FastOrNotContent/Blueprints/Menus/LevelEndMenu.LevelEndMenu_C:ExecuteUbergraph_LevelEndMenu:0049
+[2015.06.08-12.54.21:798][301]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	FastOrNotCharacter_C /Engine/Transient.World_2:PersistentLevel.FastOrNotCharacter_C_18
+	Function /Game/FastOrNotContent/Blueprints/FastOrNotCharacter.FastOrNotCharacter_C:ExecuteUbergraph_FastOrNotCharacter:02F1
+[2015.06.08-12.55.54:697][680]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A7EB2C220
+[2015.06.08-12.55.54:706][680]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FastOrNotContent/Maps/MainMenu' took 0.032
+[2015.06.08-12.55.54:976][680]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FastOrNotContent/Blueprints/FastOrNotCharacter] ([1] browsable assets)...
+[2015.06.08-12.55.54:999][680]OBJ SavePackage: Finished generating thumbnails for package [/Game/FastOrNotContent/Blueprints/FastOrNotCharacter]
+[2015.06.08-12.55.55:388][680]LogSavePackage: Save=380.368591ms
+[2015.06.08-12.55.55:388][680]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/FastOrNotCharacter_Auto26D933C334408D8C91CA3BBAD97532999.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Saved/Autosaves/Game/FastOrNotContent/Blueprints/FastOrNotCharacter_Auto2.uasset'
+[2015.06.08-12.55.55:421][680]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FastOrNotContent/Blueprints/HUD/characterHUD] ([1] browsable assets)...
+[2015.06.08-12.55.55:421][680]OBJ SavePackage: Finished generating thumbnails for package [/Game/FastOrNotContent/Blueprints/HUD/characterHUD]
+[2015.06.08-12.55.55:675][680]LogSavePackage: Save=225.607712ms
+[2015.06.08-12.55.55:676][680]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/characterHUD_Auto28AA45A0243633A5C2DEF11B6698F8D3C.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Saved/Autosaves/Game/FastOrNotContent/Blueprints/HUD/characterHUD_Auto2.uasset'
+[2015.06.08-12.55.55:682][680]LogFileHelpers: Auto-saving content packages took 0.975
+[2015.06.08-13.05.55:594][433]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FastOrNotContent/Maps/MainMenu' took 0.027
+[2015.06.08-13.05.55:629][433]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FastOrNotContent/Blueprints/HUD/characterHUD] ([1] browsable assets)...
+[2015.06.08-13.05.55:657][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/FastOrNotContent/Blueprints/HUD/characterHUD]
+[2015.06.08-13.05.55:754][433]LogSavePackage: Save=83.982834ms
+[2015.06.08-13.05.55:754][433]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/characterHUD_Auto3FF964FF448FB0250E414C1AE59F4B23B.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Saved/Autosaves/Game/FastOrNotContent/Blueprints/HUD/characterHUD_Auto3.uasset'
+[2015.06.08-13.05.55:759][433]LogFileHelpers: Auto-saving content packages took 0.164
+[2015.06.08-13.15.56:286][942]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FastOrNotContent/Maps/MainMenu' took 0.023
+[2015.06.08-13.15.56:320][942]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FastOrNotContent/Blueprints/HUD/characterHUD] ([1] browsable assets)...
+[2015.06.08-13.15.56:334][942]OBJ SavePackage: Finished generating thumbnails for package [/Game/FastOrNotContent/Blueprints/HUD/characterHUD]
+[2015.06.08-13.15.56:641][942]LogSavePackage: Save=301.255890ms
+[2015.06.08-13.15.56:642][942]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/characterHUD_Auto462F4A9154BCE9D985AA4899E839874DF.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Saved/Autosaves/Game/FastOrNotContent/Blueprints/HUD/characterHUD_Auto4.uasset'
+[2015.06.08-13.15.56:650][942]LogFileHelpers: Auto-saving content packages took 0.363
+[2015.06.08-13.25.56:517][536]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FastOrNotContent/Maps/MainMenu' took 0.018
+[2015.06.08-13.25.56:551][536]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FastOrNotContent/Blueprints/HUD/characterHUD] ([1] browsable assets)...
+[2015.06.08-13.25.56:577][536]OBJ SavePackage: Finished generating thumbnails for package [/Game/FastOrNotContent/Blueprints/HUD/characterHUD]
+[2015.06.08-13.25.56:672][536]LogSavePackage: Save=85.015106ms
+[2015.06.08-13.25.56:673][536]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/characterHUD_Auto58377AF424C9666CE2E489AA345D07062.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Saved/Autosaves/Game/FastOrNotContent/Blueprints/HUD/characterHUD_Auto5.uasset'
+[2015.06.08-13.25.56:678][536]LogFileHelpers: Auto-saving content packages took 0.161
+[2015.06.08-13.27.13:182][474]LogEditorTransaction: Undo Move Widget
+[2015.06.08-13.27.13:212][474]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	LevelEndMenu_C /Engine/Transient.World_2:LevelEndMenu_C_11
+	Function /Game/FastOrNotContent/Blueprints/Menus/LevelEndMenu.LevelEndMenu_C:ExecuteUbergraph_LevelEndMenu:0049
+[2015.06.08-13.27.13:212][474]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	FastOrNotCharacter_C /Engine/Transient.World_2:PersistentLevel.FastOrNotCharacter_C_26
+	Function /Game/FastOrNotContent/Blueprints/FastOrNotCharacter.FastOrNotCharacter_C:ExecuteUbergraph_FastOrNotCharacter:02F1
+[2015.06.08-13.27.14:225][555]LogEditorTransaction: Undo Move Widget
+[2015.06.08-13.27.14:255][555]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	LevelEndMenu_C /Engine/Transient.World_2:LevelEndMenu_C_12
+	Function /Game/FastOrNotContent/Blueprints/Menus/LevelEndMenu.LevelEndMenu_C:ExecuteUbergraph_LevelEndMenu:0049
+[2015.06.08-13.27.14:255][555]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	FastOrNotCharacter_C /Engine/Transient.World_2:PersistentLevel.FastOrNotCharacter_C_34
+	Function /Game/FastOrNotContent/Blueprints/FastOrNotCharacter.FastOrNotCharacter_C:ExecuteUbergraph_FastOrNotCharacter:02F1
+[2015.06.08-13.27.14:507][582]LogEditorTransaction: Undo Remove Widget
+[2015.06.08-13.27.14:542][582]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	LevelEndMenu_C /Engine/Transient.World_2:LevelEndMenu_C_13
+	Function /Game/FastOrNotContent/Blueprints/Menus/LevelEndMenu.LevelEndMenu_C:ExecuteUbergraph_LevelEndMenu:0049
+[2015.06.08-13.27.14:542][582]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	FastOrNotCharacter_C /Engine/Transient.World_2:PersistentLevel.FastOrNotCharacter_C_42
+	Function /Game/FastOrNotContent/Blueprints/FastOrNotCharacter.FastOrNotCharacter_C:ExecuteUbergraph_FastOrNotCharacter:02F1
+[2015.06.08-13.27.14:967][625]LogEditorTransaction: Undo Remove Widget
+[2015.06.08-13.27.15:003][625]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	LevelEndMenu_C /Engine/Transient.World_2:LevelEndMenu_C_14
+	Function /Game/FastOrNotContent/Blueprints/Menus/LevelEndMenu.LevelEndMenu_C:ExecuteUbergraph_LevelEndMenu:0049
+[2015.06.08-13.27.15:003][625]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	FastOrNotCharacter_C /Engine/Transient.World_2:PersistentLevel.FastOrNotCharacter_C_50
+	Function /Game/FastOrNotContent/Blueprints/FastOrNotCharacter.FastOrNotCharacter_C:ExecuteUbergraph_FastOrNotCharacter:02F1
+[2015.06.08-13.27.15:520][684]LogEditorTransaction: Undo Move Widget
+[2015.06.08-13.27.15:559][684]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	LevelEndMenu_C /Engine/Transient.World_2:LevelEndMenu_C_15
+	Function /Game/FastOrNotContent/Blueprints/Menus/LevelEndMenu.LevelEndMenu_C:ExecuteUbergraph_LevelEndMenu:0049
+[2015.06.08-13.27.15:559][684]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	FastOrNotCharacter_C /Engine/Transient.World_2:PersistentLevel.FastOrNotCharacter_C_58
+	Function /Game/FastOrNotContent/Blueprints/FastOrNotCharacter.FastOrNotCharacter_C:ExecuteUbergraph_FastOrNotCharacter:02F1
+[2015.06.08-13.27.16:102][746]LogEditorTransaction: Undo Move Widget
+[2015.06.08-13.27.16:140][746]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	LevelEndMenu_C /Engine/Transient.World_2:LevelEndMenu_C_16
+	Function /Game/FastOrNotContent/Blueprints/Menus/LevelEndMenu.LevelEndMenu_C:ExecuteUbergraph_LevelEndMenu:0049
+[2015.06.08-13.27.16:140][746]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	FastOrNotCharacter_C /Engine/Transient.World_2:PersistentLevel.FastOrNotCharacter_C_66
+	Function /Game/FastOrNotContent/Blueprints/FastOrNotCharacter.FastOrNotCharacter_C:ExecuteUbergraph_FastOrNotCharacter:02F1
+[2015.06.08-13.27.18:499][ 26]LogEditorTransaction: Undo Resize Widget
+[2015.06.08-13.27.18:529][ 26]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	LevelEndMenu_C /Engine/Transient.World_2:LevelEndMenu_C_17
+	Function /Game/FastOrNotContent/Blueprints/Menus/LevelEndMenu.LevelEndMenu_C:ExecuteUbergraph_LevelEndMenu:0049
+[2015.06.08-13.27.18:530][ 26]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	FastOrNotCharacter_C /Engine/Transient.World_2:PersistentLevel.FastOrNotCharacter_C_74
+	Function /Game/FastOrNotContent/Blueprints/FastOrNotCharacter.FastOrNotCharacter_C:ExecuteUbergraph_FastOrNotCharacter:02F1
+[2015.06.08-13.35.56:628][520]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FastOrNotContent/Maps/MainMenu' took 0.033
+[2015.06.08-13.35.56:664][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FastOrNotContent/Blueprints/FastOrNotCharacter] ([1] browsable assets)...
+[2015.06.08-13.35.56:688][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/FastOrNotContent/Blueprints/FastOrNotCharacter]
+[2015.06.08-13.35.57:009][520]LogSavePackage: Save=314.188690ms
+[2015.06.08-13.35.57:010][520]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/FastOrNotCharacter_Auto6BF20D66C47D89A81424FC29AC1643FB2.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Saved/Autosaves/Game/FastOrNotContent/Blueprints/FastOrNotCharacter_Auto6.uasset'
+[2015.06.08-13.35.57:046][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FastOrNotContent/Blueprints/HUD/characterHUD] ([1] browsable assets)...
+[2015.06.08-13.35.57:046][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/FastOrNotContent/Blueprints/HUD/characterHUD]
+[2015.06.08-13.35.57:134][520]LogSavePackage: Save=81.337364ms
+[2015.06.08-13.35.57:135][520]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/characterHUD_Auto605839D3940C805E2F1AE3FBD63C3CA49.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Saved/Autosaves/Game/FastOrNotContent/Blueprints/HUD/characterHUD_Auto6.uasset'
+[2015.06.08-13.35.57:139][520]LogFileHelpers: Auto-saving content packages took 0.511
+[2015.06.08-13.42.19:077][882]LogSavePackage: Save=262.642517ms
+[2015.06.08-13.42.19:077][882]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/FastOrNotCharacter124873A945F7E776D73DBDBCD6D49BB0.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Content/FastOrNotContent/Blueprints/FastOrNotCharacter.uasset'
+[2015.06.08-13.42.19:089][882]LogSavePackage: Save=2.432500ms
+[2015.06.08-13.42.19:089][882]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/NewWidgetBlueprintF223455E41ED892D0FE6679B7C815078.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Content/FastOrNotContent/Blueprints/HUD/NewWidgetBlueprint.uasset'
+[2015.06.08-13.42.19:113][882]LogSavePackage: Save=12.095530ms
+[2015.06.08-13.42.19:113][882]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/characterHUDDF9979D245DC8667A7622E9D358D6E4F.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Content/FastOrNotContent/Blueprints/HUD/characterHUD.uasset'
+[2015.06.08-13.45.39:173][171]LogSavePackage: Save=21.926371ms
+[2015.06.08-13.45.39:173][171]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/characterHUD7D10F52F47859A425135E5803191540D.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Content/FastOrNotContent/Blueprints/HUD/characterHUD.uasset'
+[2015.06.08-13.45.57:117][242]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FastOrNotContent/Maps/MainMenu' took 0.015
+[2015.06.08-13.45.57:148][242]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FastOrNotContent/Blueprints/HUD/characterHUD] ([1] browsable assets)...
+[2015.06.08-13.45.57:157][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/FastOrNotContent/Blueprints/HUD/characterHUD]
+[2015.06.08-13.45.57:236][242]LogSavePackage: Save=73.667801ms
+[2015.06.08-13.45.57:236][242]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/characterHUD_Auto72FE79E93468113D96EB77F9374580C15.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Saved/Autosaves/Game/FastOrNotContent/Blueprints/HUD/characterHUD_Auto7.uasset'
+[2015.06.08-13.45.57:242][242]LogFileHelpers: Auto-saving content packages took 0.124
+[2015.06.08-13.46.04:334][ 85]LogSavePackage: Save=11.528203ms
+[2015.06.08-13.46.04:334][ 85]LogSavePackage: Moving '../../../../../../workspace/unrealProjects/FastOrNot/Saved/characterHUDCDF0B21440C1EDF37ABD84A4C3D87206.tmp' to '../../../../../../workspace/unrealProjects/FastOrNot/Content/FastOrNotContent/Blueprints/HUD/characterHUD.uasset'
+[2015.06.08-13.46.17:138][615]LogUnrealMath: Expression Error : Unrecognized Operator
+[2015.06.08-13.46.25:247][586]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.06.08-13.46.25:398][586]LogCrashTracker: 
+
+
+[2015.06.08-13.47.02:156][586]LogCrashTracker: 
+
+
+[2015.06.08-13.47.02:157][586]LogWindows: === Critical error: ===
+Assertion failed: IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\Core\Public\Templates\SharedPointer.h] [Line: 658] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007fffa11c8b9c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() (0x00007fff852d8074) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformoutputdevices.cpp:95]
+UE4Editor-Core.dll!FOutputDevice::Logf__VA() (0x00007fff85157878) + 159 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:144]
+UE4Editor-Core.dll!FDebug::AssertFailed() (0x00007fff85138b17) + 62 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:224]
+UE4Editor-UMG.dll!UProgressBar::SynchronizeProperties() (0x00007fff811b2f28) + 59 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\umg\private\components\progressbar.cpp:45]
+UE4Editor-UMG.dll!UWidget::PostEditChangeProperty() (0x00007fff8119106a) + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\umg\private\components\widget.cpp:394]
+UE4Editor-Engine.dll!FObjectEditorUtils::MigratePropertyValue() (0x00007fff7db4b455) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\objecteditorutils.cpp:111]
+UE4Editor-UMGEditor.dll!MigratePropertyValue() (0x00007fff773127c5) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\umgeditor\private\widgetblueprinteditor.cpp:418]
+UE4Editor-UMGEditor.dll!FWidgetBlueprintEditor::MigrateFromChain() (0x00007fff773121f9) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\umgeditor\private\widgetblueprinteditor.cpp:435]
+UE4Editor-UMGEditor.dll!SWidgetDetailsView::NotifyPostChange() (0x00007fff77313d64) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\umgeditor\private\details\swidgetdetailsview.cpp:501]
+UE4Editor-PropertyEditor.dll!FPropertyNode::NotifyPostChange() (0x00007fff7ab38d30) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\propertynode.cpp:1990]
+UE4Editor-PropertyEditor.dll!FPropertyValueImpl::ImportText() (0x00007fff7ab11f7a) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\propertyhandleimpl.cpp:427]
+UE4Editor-PropertyEditor.dll!FPropertyValueImpl::ImportText() (0x00007fff7ab123e7) + 27 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\propertyhandleimpl.cpp:283]
+UE4Editor-PropertyEditor.dll!FPropertyHandleFloat::SetValue() (0x00007fff7aba4830) + 116 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\propertyhandleimpl.cpp:2104]
+UE4Editor-PropertyEditor.dll!SPropertyEditorNumeric<float>::OnValueCommitted() (0x00007fff7ab62e0a) + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\userinterface\propertyeditor\spropertyeditornumeric.h:224]
+UE4Editor-PropertyEditor.dll!TBaseSPMethodDelegateInstance<0,SPropertyEditorNumeric<float>,0,TTypeWrapper<void> __cdecl(float,enum ETextCommit::Type)>::Execute() (0x00007fff7aab0ca7) + 38 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-PropertyEditor.dll!TBaseSPMethodDelegateInstance<0,SPropertyEditorNumeric<float>,0,void __cdecl(float,enum ETextCommit::Type)>::ExecuteIfSafe() (0x00007fff7aab6ac7) + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:388]
+UE4Editor-PropertyEditor.dll!SSpinBox<float>::CommitValue() (0x00007fff7aa4d98d) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\public\widgets\input\sspinbox.h:627]
+UE4Editor-PropertyEditor.dll!SSpinBox<float>::TextField_OnTextCommitted() (0x00007fff7abad5f1) + 20 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\public\widgets\input\sspinbox.h:557]
+UE4Editor-PropertyEditor.dll!TBaseSPMethodDelegateInstance<0,SSpinBox<float>,0,TTypeWrapper<void> __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::Execute() (0x00007fff7aab0ed7) + 38 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-PropertyEditor.dll!TBaseSPMethodDelegateInstance<0,SSpinBox<float>,0,void __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::ExecuteIfSafe() (0x00007fff7aab6ce7) + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:388]
+UE4Editor-Slate.dll!SEditableText::OnEnter() (0x00007fff84d59969) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\input\seditabletext.cpp:973]
+UE4Editor-Slate.dll!FTextEditHelper::OnKeyDown() (0x00007fff84c9c6e8) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\text\textedithelper.cpp:173]
+UE4Editor-Slate.dll!SEditableText::OnKeyDown() (0x00007fff84d5c21c) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\input\seditabletext.cpp:1628]
+UE4Editor-Slate.dll!<lambda_01b95f45d99b75c93c453dee9d82570e>::operator()() (0x00007fff84b7c872) + 38 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3581]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_01b95f45d99b75c93c453dee9d82570e> >() (0x00007fff84b36e4d) + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:202]
+UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_01b95f45d99b75c93c453dee9d82570e>,FKeyEvent>() (0x00007fff84b3894a) + 52 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:184]
+UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() (0x00007fff84be3e6d) + 93 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3582]
+UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() (0x00007fff84bd3798) + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3517]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() (0x00007fff85233650) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1229]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() (0x00007fff85225d2e) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1669]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() (0x00007fff85234d50) + 41 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:742]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() (0x00007fff85223192) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:604]
+USER32.dll!UnknownFunction (0x00007fffa21e250d) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007fffa21e2367) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() (0x00007fff852d3ec6) + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:774]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff6aee500a9) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launchengineloop.cpp:2233]
+UE4Editor.exe!GuardedMain() (0x00007ff6aee4267c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff6aee426ea) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff6aee52219) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff6aee53159) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007fffa3d613d2) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007fffa3eb5444) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007fffa3eb5444) + 0 bytes [UnknownFile:0]
+
+
+[2015.06.08-13.47.02:288][586]LogExit: Executing StaticShutdownAfterError
+[2015.06.08-13.47.02:350][586]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.06.08-13.47.02:351][586]Log file closed, 06/08/15 15:47:02
