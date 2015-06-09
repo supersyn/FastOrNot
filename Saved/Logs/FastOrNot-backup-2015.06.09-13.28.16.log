@@ -1,0 +1,574 @@
+﻿Log file open, 06/09/15 10:26:32
+LogInit:Display: Running engine for game: FastOrNot
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: F:/Programs/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.09-08.26.32:212][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.06.09-08.26.32:290][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.09-08.26.32:313][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.09-08.26.32:327][  0]LogInit: Object subsystem initialized
+[2015.06.09-08.26.32:330][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.09-08.26.32:330][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/workspace/unrealProjects/FastOrNot/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.09-08.26.32:330][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.09-08.26.32:330][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/workspace/unrealProjects/FastOrNot/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.09-08.26.32:330][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.09-08.26.32:330][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/workspace/unrealProjects/FastOrNot/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.09-08.26.32:330][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.09-08.26.32:330][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.09-08.26.32:338][  0]LogInit: Computer: ARTRU
+[2015.06.09-08.26.32:338][  0]LogInit: User: Artur
+[2015.06.09-08.26.32:338][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.09-08.26.32:338][  0]LogInit: High frequency timer resolution =3.897225 MHz
+[2015.06.09-08.26.32:338][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=131072.0GB
+[2015.06.09-08.26.32:338][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.09-08.26.32:338][  0]LogMemory: Process Physical Memory: 45.97 MB used, 45.97 MB peak
+[2015.06.09-08.26.32:338][  0]LogMemory: Process Virtual Memory: 22.56 MB used, 22.57 MB peak
+[2015.06.09-08.26.32:338][  0]LogMemory: Physical Memory: 3913.73 MB used, 16334.79 MB total
+[2015.06.09-08.26.32:338][  0]LogMemory: Virtual Memory: 289.97 MB used, 134217728.00 MB total
+[2015.06.09-08.26.32:356][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2015.06.09-08.26.32:356][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.06.09-08.26.32:357][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.09-08.26.32:357][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.06.09-08.26.32:357][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.09-08.26.32:360][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.06.09-08.26.32:367][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.09-08.26.32:439][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.09-08.26.32:486][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (F:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (F:/Programs/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.06.09-08.26.32:486][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (F:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (F:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.06.09-08.26.32:543][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.09-08.26.34:079][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.09-08.26.34:402][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.09-08.26.34:436][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.09-08.26.34:468][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Artur/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.09-08.26.34:469][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Artur/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.09-08.26.34:469][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../workspace/unrealProjects/FastOrNot/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.09-08.26.34:469][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.09-08.26.34:551][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.09-08.26.34:563][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Artur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.09-08.26.34:742][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.09-08.26.34:742][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.09-08.26.34:996][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.09-08.26.35:037][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.09-08.26.35:536][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.09-08.26.35:691][  0]SourceControl: Info Source control is disabled
+[2015.06.09-08.26.35:691][  0]SourceControl: Info Source control is disabled
+[2015.06.09-08.26.35:691][  0]SourceControl: Info Source control is disabled
+[2015.06.09-08.26.35:696][  0]SourceControl: Info Source control is disabled
+[2015.06.09-08.26.35:790][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.09-08.26.35:790][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.06.09-08.26.35:844][  0]LogEngine: Initializing Engine...
+[2015.06.09-08.26.37:990][  0]LogInit: XAudio2 using 'T22C300-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.09-08.26.37:994][  0]LogInit: FAudioDevice initialized.
+[2015.06.09-08.26.38:013][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.09-08.26.38:031][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Artur/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.09-08.26.38:035][  0]LogInit: Texture streaming: Enabled
+[2015.06.09-08.26.38:088][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.09-08.26.38:088][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.09-08.26.38:088][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.09-08.26.38:088][  0]LogAnalytics: SetUserId e150438f46d4abc57021b1b430144fcb|2b49c56e734a4ac696504fc95616e715|9a312696-2d12-461c-a33c-f615d64e4dd7
+[2015.06.09-08.26.38:088][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.09-08.26.38:102][  0]LogInit: Transaction tracking system initialized
+[2015.06.09-08.26.38:193][  0]BlueprintLog: New page: Editor Load
+[2015.06.09-08.26.38:216][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.06.09-08.26.38:216][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.09-08.26.38:554][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.09-08.26.38:796][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.09-08.26.38:931][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.09-08.26.38:932][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.09-08.26.38:935][  0]LogConsoleResponse:Display: 
+[2015.06.09-08.26.39:033][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.09-08.26.39:105][  0]SourceControl: Info Source control is disabled
+[2015.06.09-08.26.39:105][  0]Cmd: MAP LOAD FILE="../../../../../../workspace/unrealProjects/FastOrNot/Content/FastOrNotContent/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.09-08.26.39:106][  0]LightingResults: New page: Lighting Build
+[2015.06.09-08.26.39:112][  0]MapCheck: New page: Map Check
+[2015.06.09-08.26.39:112][  0]LightingResults: New page: Lighting Build
+[2015.06.09-08.26.39:118][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF35F9A520
+[2015.06.09-08.26.39:665][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.09-08.26.39:666][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.09-08.26.39:666][  0]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.09-08.26.39:666][  0]Cmd: MAP CHECKDEP
+[2015.06.09-08.26.39:666][  0]MapCheck: New page: MainMenu - Jun 9, 2015, 12:26:39 PM
+[2015.06.09-08.26.39:713][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.15ms to complete.
+[2015.06.09-08.26.39:713][  0]LogFileHelpers: Loading map 'MainMenu' took 0.608
+[2015.06.09-08.26.39:862][  0]LogCollectionManager: Loaded 0 collections in 0.000737 seconds
+[2015.06.09-08.26.39:869][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 1696 classes and 261 folders.
+[2015.06.09-08.26.39:885][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2015.06.09-08.26.39:914][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.09-08.26.39:915][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.09-08.26.39:919][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.09-08.26.39:945][  0]LogLoad: Full Startup: 9.25 seconds (BP compile: 0.17 seconds)
+[2015.06.09-08.26.39:973][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Blueprints/HUD'
+[2015.06.09-08.26.40:096][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.06.09-08.26.40:336][  4]LogAssetRegistry: Asset discovery search completed in 2.1309 seconds
+[2015.06.09-08.26.49:935][108]LogEditorViewport: Clicking Background
+[2015.06.09-08.27.49:546][739]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.09-08.27.49:546][739]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.06.09-08.27.49:589][739]LogPlayLevel: PIE:  Blueprint regeneration took 43 ms (1 blueprints)
+[2015.06.09-08.27.49:590][739]PIE: New page: PIE session: MainMenu (Jun 9, 2015, 12:27:49 PM)
+[2015.06.09-08.27.49:594][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003783s)
+[2015.06.09-08.27.49:596][739]LogPlayLevel: PIE: World Init took: (0.000384s)
+[2015.06.09-08.27.49:596][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004341s)
+[2015.06.09-08.27.49:641][739]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.09-08.27.49:643][739]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.09-08.27.49:644][739]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.09-08.27.49:644][739]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.09-10.27.49
+[2015.06.09-08.27.49:644][739]LogWorld: Bringing up level for play took: 0.001157
+[2015.06.09-08.27.49:648][739]PIE: Info Play in editor start time for /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu 0.501
+[2015.06.09-08.27.49:658][739]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.09-08.28.01:511][148]LogPackageName: SearchForPackageOnDisk took   0.040s to resolve Platformer_Level_1.umap
+[2015.06.09-08.28.01:549][148]LogPackageName: SearchForPackageOnDisk took   0.038s to resolve Platformer_Level_1.umap
+[2015.06.09-08.28.01:549][148]LogNet: Browse: /Game/FastOrNotContent/Maps/Platformer/Platformer_Level_1
+[2015.06.09-08.28.01:549][148]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/Platformer/Platformer_Level_1
+[2015.06.09-08.28.01:560][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF2D2FBEC0
+[2015.06.09-08.28.01:560][148]Cmd: MEM
+[2015.06.09-08.28.01:568][148]LogMemory: Platform Memory Stats for Windows
+[2015.06.09-08.28.01:568][148]LogMemory: Process Physical Memory: 392.63 MB used, 420.48 MB peak
+[2015.06.09-08.28.01:568][148]LogMemory: Process Virtual Memory: 298.21 MB used, 337.50 MB peak
+[2015.06.09-08.28.01:568][148]LogMemory: Physical Memory: 4254.04 MB used, 16334.79 MB total
+[2015.06.09-08.28.01:568][148]LogMemory: Virtual Memory: 848.21 MB used, 134217728.00 MB total
+[2015.06.09-08.28.01:568][148]LogMemory: 
+[2015.06.09-08.28.01:568][148]Allocator Stats for TBB: (not implemented)
+[2015.06.09-08.28.02:388][148]LogWorld: Game class is 'PlatformerGameMode_C'
+[2015.06.09-08.28.02:390][148]LogAIModule: Creating AISystem for world Platformer_Level_1
+[2015.06.09-08.28.02:390][148]LogWorld: Bringing World /Game/FastOrNotContent/Maps/Platformer/UEDPIE_0_Platformer_Level_1.Platformer_Level_1 up for play (max tick rate 0) at 2015.06.09-10.28.02
+[2015.06.09-08.28.02:391][148]LogWorld: Bringing up level for play took: 0.000712
+[2015.06.09-08.28.02:391][148]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.06.09-08.28.32:957][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF37983A60
+[2015.06.09-08.28.35:039][ 48]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.09-08.28.35:039][ 48]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.06.09-08.28.35:075][ 48]LogPlayLevel: PIE:  Blueprint regeneration took 36 ms (1 blueprints)
+[2015.06.09-08.28.35:075][ 48]PIE: New page: PIE session: MainMenu (Jun 9, 2015, 12:28:35 PM)
+[2015.06.09-08.28.35:080][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003825s)
+[2015.06.09-08.28.35:081][ 48]LogPlayLevel: PIE: World Init took: (0.000371s)
+[2015.06.09-08.28.35:081][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004326s)
+[2015.06.09-08.28.35:116][ 48]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.09-08.28.35:118][ 48]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.09-08.28.35:119][ 48]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.09-08.28.35:119][ 48]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.09-10.28.35
+[2015.06.09-08.28.35:120][ 48]LogWorld: Bringing up level for play took: 0.001120
+[2015.06.09-08.28.35:121][ 48]PIE: Info Play in editor start time for /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu -0.025
+[2015.06.09-08.28.35:122][ 48]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.09-08.28.38:095][400]LogPackageName: SearchForPackageOnDisk took   0.039s to resolve BeFastest_Level_1.umap
+[2015.06.09-08.28.38:133][400]LogPackageName: SearchForPackageOnDisk took   0.038s to resolve BeFastest_Level_1.umap
+[2015.06.09-08.28.38:133][400]LogNet: Browse: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.09-08.28.38:133][400]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.09-08.28.38:145][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF31C55080
+[2015.06.09-08.28.38:146][400]Cmd: MEM
+[2015.06.09-08.28.38:153][400]LogMemory: Platform Memory Stats for Windows
+[2015.06.09-08.28.38:153][400]LogMemory: Process Physical Memory: 427.67 MB used, 440.43 MB peak
+[2015.06.09-08.28.38:153][400]LogMemory: Process Virtual Memory: 330.91 MB used, 345.52 MB peak
+[2015.06.09-08.28.38:153][400]LogMemory: Physical Memory: 4291.23 MB used, 16334.79 MB total
+[2015.06.09-08.28.38:153][400]LogMemory: Virtual Memory: 885.24 MB used, 134217728.00 MB total
+[2015.06.09-08.28.38:153][400]LogMemory: 
+[2015.06.09-08.28.38:153][400]Allocator Stats for TBB: (not implemented)
+[2015.06.09-08.28.38:575][400]LogWorld: Game class is 'BeFastestGameMode_C'
+[2015.06.09-08.28.38:577][400]LogAIModule: Creating AISystem for world BeFastest_Level_1
+[2015.06.09-08.28.38:579][400]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36.RenderComponent)
+[2015.06.09-08.28.38:581][400]LogWorld: Bringing World /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1 up for play (max tick rate 0) at 2015.06.09-10.28.38
+[2015.06.09-08.28.38:581][400]LogWorld: Bringing up level for play took: 0.003748
+[2015.06.09-08.28.45:834][262]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF37A9A660
+[2015.06.09-08.34.31:064][136]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.09-08.34.31:064][136]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.06.09-08.34.31:105][136]LogPlayLevel: PIE:  Blueprint regeneration took 40 ms (1 blueprints)
+[2015.06.09-08.34.31:105][136]PIE: New page: PIE session: MainMenu (Jun 9, 2015, 12:34:31 PM)
+[2015.06.09-08.34.31:111][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003904s)
+[2015.06.09-08.34.31:112][136]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2015.06.09-08.34.31:112][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004535s)
+[2015.06.09-08.34.31:146][136]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.09-08.34.31:147][136]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.09-08.34.31:148][136]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.09-08.34.31:148][136]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.09-10.34.31
+[2015.06.09-08.34.31:149][136]LogWorld: Bringing up level for play took: 0.001065
+[2015.06.09-08.34.31:150][136]PIE: Info Play in editor start time for /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu 0.005
+[2015.06.09-08.34.31:152][136]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.09-08.41.31:113][502]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF31C54EA0
+[2015.06.09-08.41.56:693][562]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.09-08.41.56:693][562]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.06.09-08.41.56:733][562]LogPlayLevel: PIE:  Blueprint regeneration took 39 ms (1 blueprints)
+[2015.06.09-08.41.56:733][562]PIE: New page: PIE session: MainMenu (Jun 9, 2015, 12:41:56 PM)
+[2015.06.09-08.41.56:738][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004184s)
+[2015.06.09-08.41.56:739][562]LogPlayLevel: PIE: World Init took: (0.000432s)
+[2015.06.09-08.41.56:739][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004767s)
+[2015.06.09-08.41.56:768][562]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.09-08.41.56:770][562]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.09-08.41.56:771][562]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.09-08.41.56:771][562]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.09-10.41.56
+[2015.06.09-08.41.56:771][562]LogWorld: Bringing up level for play took: 0.001175
+[2015.06.09-08.41.56:773][562]PIE: Info Play in editor start time for /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu -0.372
+[2015.06.09-08.41.56:775][562]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.09-08.41.57:684][652]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF3CABCF40
+[2015.06.09-08.42.17:895][ 37]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.06.09-08.45.47:048][971]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Textures'
+[2015.06.09-08.45.50:740][364]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FastOrNotContent/Textures/Character'
+[2015.06.09-08.46.19:969][187]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	LevelEndMenu_C /Engine/Transient.World_2:LevelEndMenu_C_0
+	Function /Game/FastOrNotContent/Blueprints/Menus/LevelEndMenu.LevelEndMenu_C:ExecuteUbergraph_LevelEndMenu:0049
+[2015.06.09-08.46.19:969][187]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	FastOrNotCharacter_C /Engine/Transient.World_2:PersistentLevel.FastOrNotCharacter_C_2
+	Function /Game/FastOrNotContent/Blueprints/FastOrNotCharacter.FastOrNotCharacter_C:ExecuteUbergraph_FastOrNotCharacter:05F3
+[2015.06.09-08.46.27:794][ 62]LogRenderer:Warning: Reallocating scene render targets to support 1528x920 (Frame:113071).
+[2015.06.09-08.46.42:298][373]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed'
+[2015.06.09-08.50.53:006][759]LogAssetTools:Warning: Failed to import 'G:/marioEnemy1.gif'. Unknown extension 'gif'.
+[2015.06.09-08.57.37:728][685]LogEditorViewport: Clicking Background
+[2015.06.09-08.57.38:435][770]LogEditorViewport: Clicking Background
+[2015.06.09-08.57.57:405][ 33]LogEditorViewport: Clicking on Actor (LMB): PaperFlipbookActor (Run_Flipbook2)
+[2015.06.09-08.57.58:193][117]LogEditorViewport: Clicking Background
+[2015.06.09-08.57.58:993][213]LogEditorViewport: Clicking on Actor (LMB): PaperFlipbookActor (Run_Flipbook)
+[2015.06.09-08.58.00:072][340]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.06.09-08.58.00:760][421]LogEditorViewport: Clicking Background
+[2015.06.09-11.19.03:806][908]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0273 seconds. Added 1 classes and 2 folders.
+[2015.06.09-11.23.42:712][192]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.09-11.23.42:716][192]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.06.09-11.23.43:039][192]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF2D297060
+[2015.06.09-11.23.43:073][192]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF45277D80
+[2015.06.09-11.23.43:131][192]LogPlayLevel: PIE:  Blueprint regeneration took 419 ms (1 blueprints)
+[2015.06.09-11.23.43:132][192]PIE: New page: PIE session: MainMenu (Jun 9, 2015, 3:23:43 PM)
+[2015.06.09-11.23.43:137][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004478s)
+[2015.06.09-11.23.43:137][192]LogPlayLevel: PIE: World Init took: (0.000464s)
+[2015.06.09-11.23.43:138][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.005088s)
+[2015.06.09-11.23.43:174][192]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.09-11.23.43:175][192]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.09-11.23.43:177][192]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.09-11.23.43:177][192]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.09-13.23.43
+[2015.06.09-11.23.43:177][192]LogWorld: Bringing up level for play took: 0.001252
+[2015.06.09-11.23.43:179][192]PIE: Info Play in editor start time for /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu 0.033
+[2015.06.09-11.23.43:180][192]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.09-11.23.44:898][381]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF2B90EDE0
+[2015.06.09-11.23.46:360][525]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.09-11.23.46:363][525]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.06.09-11.23.46:415][525]LogPlayLevel: PIE:  Blueprint regeneration took 55 ms (1 blueprints)
+[2015.06.09-11.23.46:415][525]PIE: New page: PIE session: MainMenu (Jun 9, 2015, 3:23:46 PM)
+[2015.06.09-11.23.46:420][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004311s)
+[2015.06.09-11.23.46:421][525]LogPlayLevel: PIE: World Init took: (0.000460s)
+[2015.06.09-11.23.46:421][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004893s)
+[2015.06.09-11.23.46:455][525]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.09-11.23.46:457][525]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.09-11.23.46:458][525]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.09-11.23.46:458][525]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.09-13.23.46
+[2015.06.09-11.23.46:459][525]LogWorld: Bringing up level for play took: 0.001192
+[2015.06.09-11.23.46:460][525]PIE: Info Play in editor start time for /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu -0.685
+[2015.06.09-11.23.46:463][525]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.09-11.23.59:930][918]LogPackageName: SearchForPackageOnDisk took   1.685s to resolve BeFastest_Level_1.umap
+[2015.06.09-11.24.00:015][918]LogPackageName: SearchForPackageOnDisk took   0.082s to resolve BeFastest_Level_1.umap
+[2015.06.09-11.24.00:015][918]LogNet: Browse: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.09-11.24.00:015][918]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.09-11.24.00:035][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF45276480
+[2015.06.09-11.24.00:035][918]Cmd: MEM
+[2015.06.09-11.24.00:050][918]LogMemory: Platform Memory Stats for Windows
+[2015.06.09-11.24.00:050][918]LogMemory: Process Physical Memory: 608.59 MB used, 635.27 MB peak
+[2015.06.09-11.24.00:050][918]LogMemory: Process Virtual Memory: 488.29 MB used, 507.22 MB peak
+[2015.06.09-11.24.00:050][918]LogMemory: Physical Memory: 4790.31 MB used, 16334.79 MB total
+[2015.06.09-11.24.00:050][918]LogMemory: Virtual Memory: 1070.78 MB used, 134217728.00 MB total
+[2015.06.09-11.24.00:050][918]LogMemory: 
+[2015.06.09-11.24.00:050][918]Allocator Stats for TBB: (not implemented)
+[2015.06.09-11.24.01:392][918]LogWorld: Game class is 'BeFastestGameMode_C'
+[2015.06.09-11.24.01:393][918]LogAIModule: Creating AISystem for world BeFastest_Level_1
+[2015.06.09-11.24.01:394][918]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36.RenderComponent)
+[2015.06.09-11.24.01:396][918]LogWorld: Bringing World /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1 up for play (max tick rate 0) at 2015.06.09-13.24.01
+[2015.06.09-11.24.01:396][918]LogWorld: Bringing up level for play took: 0.002560
+[2015.06.09-11.24.05:797][435]LogEditorViewport: Clicking Background
+[2015.06.09-11.24.12:163][174]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Background)
+[2015.06.09-11.24.12:163][174]LogSelection:Warning: PIE object was selected: "PaperSpriteActor /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36"
+[2015.06.09-11.24.13:252][256]LogEditorViewport: Clicking Background
+[2015.06.09-11.24.15:513][520]LogPackageName: SearchForPackageOnDisk took   0.040s to resolve BeFastest_Level_1.umap
+[2015.06.09-11.24.15:553][520]LogPackageName: SearchForPackageOnDisk took   0.039s to resolve BeFastest_Level_1.umap
+[2015.06.09-11.24.15:553][520]LogNet: Browse: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.09-11.24.15:553][520]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.09-11.24.15:574][520]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF44722160
+[2015.06.09-11.24.15:574][520]Cmd: MEM
+[2015.06.09-11.24.15:588][520]LogMemory: Platform Memory Stats for Windows
+[2015.06.09-11.24.15:588][520]LogMemory: Process Physical Memory: 621.73 MB used, 635.27 MB peak
+[2015.06.09-11.24.15:588][520]LogMemory: Process Virtual Memory: 501.28 MB used, 508.09 MB peak
+[2015.06.09-11.24.15:588][520]LogMemory: Physical Memory: 4808.05 MB used, 16334.79 MB total
+[2015.06.09-11.24.15:588][520]LogMemory: Virtual Memory: 1091.02 MB used, 134217728.00 MB total
+[2015.06.09-11.24.15:588][520]LogMemory: 
+[2015.06.09-11.24.15:588][520]Allocator Stats for TBB: (not implemented)
+[2015.06.09-11.24.15:712][520]LogWorld: Game class is 'BeFastestGameMode_C'
+[2015.06.09-11.24.15:714][520]LogAIModule: Creating AISystem for world BeFastest_Level_1
+[2015.06.09-11.24.15:716][520]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36.RenderComponent)
+[2015.06.09-11.24.15:718][520]LogWorld: Bringing World /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1 up for play (max tick rate 0) at 2015.06.09-13.24.15
+[2015.06.09-11.24.15:718][520]LogWorld: Bringing up level for play took: 0.003347
+[2015.06.09-11.24.18:249][823]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background)
+[2015.06.09-11.24.18:249][823]LogSelection:Warning: PIE object was selected: "PaperSpriteActor /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36"
+[2015.06.09-11.24.19:146][928]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background)
+[2015.06.09-11.24.19:146][928]LogSelection:Warning: PIE object was selected: "PaperSpriteActor /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36"
+[2015.06.09-11.24.20:100][ 34]LogSelection:Warning: PIE object was selected: "FastOrNotCharacter_C /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.FastOrNotCharacter_C_11"
+[2015.06.09-11.24.20:114][ 34]LogSelection:Warning: PIE object was selected: "PaperSpriteActor /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36"
+[2015.06.09-11.24.21:638][195]LogSelection:Warning: PIE object was selected: "CameraActor /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.CameraActor_9"
+[2015.06.09-11.24.21:639][195]LogSelection:Warning: PIE object was selected: "PaperSpriteActor /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36"
+[2015.06.09-11.24.24:146][479]LogSelection:Warning: PIE object was selected: "FastOrNotCharacter_C /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.FastOrNotCharacter_C_11"
+[2015.06.09-11.24.24:146][479]LogSelection:Warning: PIE object was selected: "PlayerStart /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.PlayerStart_7"
+[2015.06.09-11.24.24:146][479]LogSelection:Warning: PIE object was selected: "FinishTrigger_Blueprint_C /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.FinishTrigger_Blueprint_C_0"
+[2015.06.09-11.24.24:146][479]LogSelection:Warning: PIE object was selected: "PaperSpriteActor /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36"
+[2015.06.09-11.24.24:146][479]LogSelection:Warning: PIE object was selected: "PlatformBuilder_C /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.PlatformBuilder_C_0"
+[2015.06.09-11.24.25:385][622]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background)
+[2015.06.09-11.24.25:385][622]LogSelection:Warning: PIE object was selected: "PaperSpriteActor /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36"
+[2015.06.09-11.24.29:136][ 47]LogPackageName: SearchForPackageOnDisk took   0.047s to resolve BeFastest_Level_1.umap
+[2015.06.09-11.24.29:176][ 47]LogPackageName: SearchForPackageOnDisk took   0.039s to resolve BeFastest_Level_1.umap
+[2015.06.09-11.24.29:176][ 47]LogNet: Browse: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.09-11.24.29:176][ 47]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/BeFastest/BeFastest_Level_1
+[2015.06.09-11.24.29:192][ 47]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF41F49C60
+[2015.06.09-11.24.29:196][ 47]Cmd: MEM
+[2015.06.09-11.24.29:211][ 47]LogMemory: Platform Memory Stats for Windows
+[2015.06.09-11.24.29:211][ 47]LogMemory: Process Physical Memory: 630.66 MB used, 635.27 MB peak
+[2015.06.09-11.24.29:211][ 47]LogMemory: Process Virtual Memory: 509.25 MB used, 514.23 MB peak
+[2015.06.09-11.24.29:211][ 47]LogMemory: Physical Memory: 4815.11 MB used, 16334.79 MB total
+[2015.06.09-11.24.29:211][ 47]LogMemory: Virtual Memory: 1084.88 MB used, 134217728.00 MB total
+[2015.06.09-11.24.29:211][ 47]LogMemory: 
+[2015.06.09-11.24.29:211][ 47]Allocator Stats for TBB: (not implemented)
+[2015.06.09-11.24.29:347][ 47]LogWorld: Game class is 'BeFastestGameMode_C'
+[2015.06.09-11.24.29:348][ 47]LogAIModule: Creating AISystem for world BeFastest_Level_1
+[2015.06.09-11.24.29:350][ 47]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1:PersistentLevel.Background_36.RenderComponent)
+[2015.06.09-11.24.29:351][ 47]LogWorld: Bringing World /Game/FastOrNotContent/Maps/BeFastest/UEDPIE_0_BeFastest_Level_1.BeFastest_Level_1 up for play (max tick rate 0) at 2015.06.09-13.24.29
+[2015.06.09-11.24.29:351][ 47]LogWorld: Bringing up level for play took: 0.002536
+[2015.06.09-11.27.42:568][116]LogPackageName: SearchForPackageOnDisk took   0.046s to resolve MainMenu.umap
+[2015.06.09-11.27.42:607][116]LogPackageName: SearchForPackageOnDisk took   0.039s to resolve MainMenu.umap
+[2015.06.09-11.27.42:607][116]LogNet: Browse: /Game/FastOrNotContent/Maps/MainMenu
+[2015.06.09-11.27.42:607][116]LogLoad: LoadMap: /Game/FastOrNotContent/Maps/MainMenu
+[2015.06.09-11.27.42:622][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF31C54180
+[2015.06.09-11.27.42:625][116]Cmd: MEM
+[2015.06.09-11.27.42:640][116]LogMemory: Platform Memory Stats for Windows
+[2015.06.09-11.27.42:640][116]LogMemory: Process Physical Memory: 627.62 MB used, 637.67 MB peak
+[2015.06.09-11.27.42:640][116]LogMemory: Process Virtual Memory: 507.25 MB used, 516.27 MB peak
+[2015.06.09-11.27.42:640][116]LogMemory: Physical Memory: 4811.43 MB used, 16334.79 MB total
+[2015.06.09-11.27.42:640][116]LogMemory: Virtual Memory: 1093.09 MB used, 134217728.00 MB total
+[2015.06.09-11.27.42:640][116]LogMemory: 
+[2015.06.09-11.27.42:640][116]Allocator Stats for TBB: (not implemented)
+[2015.06.09-11.27.42:644][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004147s)
+[2015.06.09-11.27.42:645][116]LogPlayLevel: PIE: World Init took: (0.000481s)
+[2015.06.09-11.27.42:645][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004755s)
+[2015.06.09-11.27.42:645][116]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.09-11.27.42:646][116]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.09-11.27.42:647][116]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.09-11.27.42:648][116]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.09-13.27.42
+[2015.06.09-11.27.42:648][116]LogWorld: Bringing up level for play took: 0.001032
+[2015.06.09-11.27.42:650][116]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.09-11.27.43:377][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF3CABC400
+[2015.06.09-11.27.44:838][344]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.09-11.27.44:841][344]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.06.09-11.27.44:894][344]LogPlayLevel: PIE:  Blueprint regeneration took 56 ms (1 blueprints)
+[2015.06.09-11.27.44:895][344]PIE: New page: PIE session: MainMenu (Jun 9, 2015, 3:27:44 PM)
+[2015.06.09-11.27.44:901][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004252s)
+[2015.06.09-11.27.44:901][344]LogPlayLevel: PIE: World Init took: (0.000383s)
+[2015.06.09-11.27.44:901][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004771s)
+[2015.06.09-11.27.44:931][344]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.09-11.27.44:933][344]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.09-11.27.44:934][344]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.09-11.27.44:934][344]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.09-13.27.44
+[2015.06.09-11.27.44:934][344]LogWorld: Bringing up level for play took: 0.001079
+[2015.06.09-11.27.44:936][344]PIE: Info Play in editor start time for /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu -0.21
+[2015.06.09-11.27.44:940][344]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.09-11.27.52:106][189]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF379EE020
+[2015.06.09-11.27.56:438][338]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.09-11.27.56:443][338]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.06.09-11.27.56:508][338]LogPlayLevel: PIE:  Blueprint regeneration took 70 ms (1 blueprints)
+[2015.06.09-11.27.56:509][338]PIE: New page: PIE session: MainMenu (Jun 9, 2015, 3:27:56 PM)
+[2015.06.09-11.27.56:513][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004076s)
+[2015.06.09-11.27.56:514][338]LogPlayLevel: PIE: World Init took: (0.000394s)
+[2015.06.09-11.27.56:514][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FastOrNotContent/Maps/MainMenu.MainMenu to /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu (0.004594s)
+[2015.06.09-11.27.56:547][338]LogWorld: Game class is 'MainMenuGameMode_C'
+[2015.06.09-11.27.56:549][338]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.09-11.27.56:550][338]LogPrimitiveComponent: Zero scaling not supported (/Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BackgroundSprite_5.RenderComponent)
+[2015.06.09-11.27.56:550][338]LogWorld: Bringing World /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.09-13.27.56
+[2015.06.09-11.27.56:550][338]LogWorld: Bringing up level for play took: 0.001109
+[2015.06.09-11.27.56:552][338]PIE: Info Play in editor start time for /Game/FastOrNotContent/Maps/UEDPIE_0_MainMenu -0.594
+[2015.06.09-11.27.56:554][338]LogAudio:Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2015.06.09-11.27.59:826][723]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF41F49760
+[2015.06.09-11.28.02:775][973]Cmd: QUIT_EDITOR
+[2015.06.09-11.28.03:192][973]LogExit: Preparing to exit.
+[2015.06.09-11.28.03:818][973]LogExit: Editor shut down
+[2015.06.09-11.28.03:818][973]LogExit: Transaction tracking system shut down
+[2015.06.09-11.28.03:822][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF2D3ED620
+[2015.06.09-11.28.03:823][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF39E20FE0
+[2015.06.09-11.28.03:823][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF39FF2E80
+[2015.06.09-11.28.03:827][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FF42481940
+[2015.06.09-11.28.04:882][973]LogExit: Object subsystem successfully closed.
+[2015.06.09-11.28.05:526][973]LogModuleManager: Shutting down and abandoning module TextureEditor (178)
+[2015.06.09-11.28.05:548][973]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.06.09-11.28.05:548][973]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.06.09-11.28.05:548][973]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.06.09-11.28.05:567][973]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.06.09-11.28.05:567][973]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.06.09-11.28.05:577][973]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.06.09-11.28.05:600][973]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.06.09-11.28.05:600][973]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.06.09-11.28.05:620][973]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.06.09-11.28.05:636][973]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.06.09-11.28.05:636][973]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.06.09-11.28.05:636][973]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.06.09-11.28.05:636][973]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.06.09-11.28.05:636][973]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.06.09-11.28.05:636][973]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.06.09-11.28.05:636][973]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.06.09-11.28.05:636][973]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.06.09-11.28.05:636][973]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.06.09-11.28.05:636][973]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.06.09-11.28.05:662][973]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.06.09-11.28.05:674][973]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.06.09-11.28.05:761][973]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.06.09-11.28.05:778][973]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.06.09-11.28.05:778][973]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.06.09-11.28.05:796][973]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.06.09-11.28.05:816][973]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.06.09-11.28.05:816][973]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.06.09-11.28.05:816][973]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.06.09-11.28.05:821][973]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.06.09-11.28.05:821][973]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.06.09-11.28.05:821][973]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.06.09-11.28.05:821][973]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.06.09-11.28.05:960][973]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.06.09-11.28.05:960][973]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.06.09-11.28.05:960][973]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.06.09-11.28.05:991][973]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.06.09-11.28.05:991][973]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.06.09-11.28.06:049][973]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.06.09-11.28.06:049][973]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.06.09-11.28.06:054][973]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.06.09-11.28.06:077][973]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.06.09-11.28.06:093][973]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.06.09-11.28.06:110][973]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.06.09-11.28.06:110][973]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.06.09-11.28.06:125][973]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.06.09-11.28.06:140][973]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.06.09-11.28.06:155][973]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.06.09-11.28.06:191][973]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.06.09-11.28.06:191][973]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.06.09-11.28.06:191][973]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.06.09-11.28.06:197][973]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.06.09-11.28.06:293][973]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.06.09-11.28.06:318][973]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.06.09-11.28.06:331][973]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.06.09-11.28.06:345][973]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.06.09-11.28.06:345][973]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.06.09-11.28.06:345][973]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.06.09-11.28.06:345][973]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.06.09-11.28.06:345][973]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.06.09-11.28.06:365][973]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.06.09-11.28.06:381][973]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.06.09-11.28.06:381][973]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.06.09-11.28.06:400][973]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.06.09-11.28.06:400][973]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.06.09-11.28.06:417][973]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.06.09-11.28.06:450][973]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.06.09-11.28.06:451][973]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.06.09-11.28.06:451][973]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.06.09-11.28.06:451][973]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.06.09-11.28.06:481][973]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.06.09-11.28.06:481][973]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.06.09-11.28.06:495][973]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.06.09-11.28.06:630][973]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.06.09-11.28.06:660][973]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.06.09-11.28.06:660][973]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.06.09-11.28.06:660][973]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.06.09-11.28.06:660][973]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.06.09-11.28.06:674][973]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.06.09-11.28.06:691][973]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.06.09-11.28.06:710][973]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.06.09-11.28.06:710][973]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.06.09-11.28.06:756][973]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.06.09-11.28.06:756][973]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.06.09-11.28.06:770][973]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.06.09-11.28.06:796][973]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.06.09-11.28.06:798][973]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.06.09-11.28.06:798][973]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.06.09-11.28.06:798][973]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.06.09-11.28.06:798][973]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.06.09-11.28.06:817][973]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.06.09-11.28.06:834][973]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.06.09-11.28.06:855][973]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.06.09-11.28.06:863][973]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.06.09-11.28.06:863][973]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.06.09-11.28.06:863][973]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.06.09-11.28.06:863][973]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.06.09-11.28.06:864][973]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.06.09-11.28.06:868][973]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.06.09-11.28.06:882][973]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.06.09-11.28.06:983][973]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.06.09-11.28.06:987][973]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.06.09-11.28.07:002][973]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.06.09-11.28.07:002][973]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.06.09-11.28.07:003][973]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.06.09-11.28.07:003][973]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.06.09-11.28.07:003][973]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.06.09-11.28.07:024][973]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.06.09-11.28.07:030][973]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.06.09-11.28.07:045][973]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.06.09-11.28.07:045][973]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.06.09-11.28.07:045][973]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.06.09-11.28.07:086][973]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.06.09-11.28.07:121][973]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.06.09-11.28.07:139][973]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.06.09-11.28.07:139][973]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.06.09-11.28.07:139][973]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.06.09-11.28.07:144][973]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.06.09-11.28.07:144][973]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.06.09-11.28.07:144][973]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.06.09-11.28.07:144][973]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.06.09-11.28.07:144][973]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.06.09-11.28.07:144][973]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.06.09-11.28.07:144][973]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.06.09-11.28.07:144][973]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.06.09-11.28.07:144][973]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.06.09-11.28.07:269][973]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.06.09-11.28.07:341][973]LogDerivedDataCache: Shutdown
+[2015.06.09-11.28.07:341][973]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.06.09-11.28.07:357][973]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.06.09-11.28.07:359][973]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.06.09-11.28.07:364][973]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.06.09-11.28.07:364][973]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.06.09-11.28.07:370][973]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.06.09-11.28.07:370][973]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.06.09-11.28.07:371][973]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.06.09-11.28.07:371][973]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.06.09-11.28.07:372][973]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.06.09-11.28.07:372][973]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.06.09-11.28.07:389][973]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.06.09-11.28.07:389][973]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.06.09-11.28.07:389][973]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.06.09-11.28.07:389][973]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.06.09-11.28.07:394][973]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.06.09-11.28.07:399][973]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.06.09-11.28.07:400][973]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.06.09-11.28.07:400][973]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.06.09-11.28.07:415][973]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.06.09-11.28.07:416][973]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.06.09-11.28.07:416][973]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.06.09-11.28.07:460][973]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.06.09-11.28.07:460][973]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.06.09-11.28.07:460][973]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.06.09-11.28.07:460][973]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.06.09-11.28.07:460][973]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.06.09-11.28.07:460][973]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.06.09-11.28.07:477][973]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.06.09-11.28.07:519][973]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.06.09-11.28.07:523][973]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.06.09-11.28.07:552][973]LogExit: Exiting.
+[2015.06.09-11.28.07:577][973]Log file closed, 06/09/15 13:28:07
