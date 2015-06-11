@@ -1,0 +1,1 @@
+../../../FastOrNot/FastOrNot.uproject  /Game/FastOrNotContent/Maps/MainMenu -Messaging -SessionId=F1F70B6E46186ECF989B26A6FC3F3E51 -SessionOwner=Artur -SessionName='Play On Device' -iterative
